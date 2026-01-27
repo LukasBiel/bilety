@@ -1,0 +1,92 @@
+{
+  "20260131-1900-dabrowago-edyigw": {
+    "biletynaTaken": 529,
+    "ebiletTaken": 599,
+    "kupbilecikTaken": 446,
+    "timestamp": "2026-01-17T15:00:56.289Z"
+  },
+  "20260131-1900-łancut-7eaqpv": {
+    "biletynaTaken": 298,
+    "ebiletTaken": 274,
+    "kupbilecikTaken": 260,
+    "timestamp": "2026-01-17T19:29:58.023Z"
+  },
+  "20260201-1700-czestochow-7eaqpv": {
+    "biletynaTaken": 417,
+    "ebiletTaken": 406,
+    "kupbilecikTaken": 378,
+    "timestamp": "2026-01-17T23:57:35.578Z"
+  },
+  "20260205-1900-torun-hvzbmi": {
+    "biletynaTaken": 686,
+    "ebiletTaken": 793,
+    "kupbilecikTaken": 722,
+    "timestamp": "2026-01-17T11:02:30.997Z"
+  },
+  "20260206-1900-nysa-1uo5su": {
+    "biletynaTaken": 431,
+    "ebiletTaken": 400,
+    "kupbilecikTaken": 423,
+    "timestamp": "2026-01-17T23:48:42.094Z"
+  },
+  "20260206-1900-gdynia-b0k194": {
+    "biletynaTaken": 405,
+    "ebiletTaken": 479,
+    "kupbilecikTaken": 396,
+    "timestamp": "2026-01-21T13:20:17.571Z"
+  },
+  "20260207-1800-dabrowago-1uo5su": {
+    "biletynaTaken": 525,
+    "ebiletTaken": 568,
+    "kupbilecikTaken": 495,
+    "timestamp": "2026-01-17T11:03:57.643Z"
+  },
+  "20260208-1600-czestochow-13wx4p": {
+    "biletynaTaken": 410,
+    "ebiletTaken": 448,
+    "kupbilecikTaken": 361,
+    "timestamp": "2026-01-17T23:51:52.460Z"
+  },
+  "20260212-1900-torun-qff14y": {
+    "biletynaTaken": 715,
+    "ebiletTaken": 757,
+    "kupbilecikTaken": 777,
+    "timestamp": "2026-01-18T19:03:28.886Z"
+  },
+  "20260412-1800-chełm-1uo5su": {
+    "biletynaTaken": 426,
+    "ebiletTaken": 415,
+    "kupbilecikTaken": 409,
+    "timestamp": "2026-01-17T23:56:04.801Z"
+  },
+  "20260511-1900-gdynia-e3m0as": {
+    "biletynaTaken": 848,
+    "ebiletTaken": 825,
+    "kupbilecikTaken": 820,
+    "timestamp": "2026-01-21T13:16:28.526Z"
+  },
+  "20260426-1700-zywiec-x61gl1": {
+    "biletynaTaken": 270,
+    "ebiletTaken": 260,
+    "kupbilecikTaken": 208,
+    "timestamp": "2026-01-21T13:24:23.752Z"
+  },
+  "20260130-1900-rybnik-pumagr": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 599,
+    "kupbilecikTaken": 588,
+    "timestamp": "2026-01-21T13:13:58.295Z"
+  },
+  "20260418-1800-swiebodzin-b0k194": {
+    "biletynaTaken": 342,
+    "ebiletTaken": 305,
+    "kupbilecikTaken": 322,
+    "timestamp": "2026-01-21T13:20:31.052Z"
+  },
+  "20260210-1900-łodz-xtc7pp": {
+    "biletynaTaken": 554,
+    "ebiletTaken": 567,
+    "kupbilecikTaken": 484,
+    "timestamp": "2026-01-21T13:38:59.958Z"
+  }
+}
