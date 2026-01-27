@@ -11,12 +11,13 @@ git clone https://github.com/LukasBiel/bilety.git
 
 ## Krok 2 – uruchamianie aplikacji (za każdym razem)
 ### Za pomocą pliku wsadowego Windows
-1. Wejdź do folderu `seat-checker`.
+1. Wejdź do folderu `seat-checker\script`.
 2. Kliknij plik `uruchom.bat` i uruchom jako administrator (jeśli wymagane do instalacji zależności).
 3. Terminal uruchomi aplikację i wyświetli adres: `http://localhost:3000`.
 4. Otwórz przeglądarkę i przejdź pod ten adres, aby korzystać z aplikacji.
 
-❗Nie zamykaj terminala, dopóki chcesz korzystać z aplikacji – jeśli go zamkniesz, aplikacja również się wyłączy.
+❗Nie zamykaj terminala, dopóki chcesz korzystać z aplikacji – jeśli go zamkniesz, aplikacja również się wyłączy. 
+
 5. Gdy chcesz wyłączyć aplikację, kliknij terminal i wciśnij:
 ```bash
 Ctrl + C
