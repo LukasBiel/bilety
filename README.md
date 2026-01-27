@@ -44,7 +44,7 @@ Szczegółowa specyfikacja wymagań jest dostępna w folderze `docs`:
 - [Wymagania funkcjonalne i pozafunkcjonalne](docs/requirements.md)
 ___
 ## Możliwe rozszerzenia systemu
-* Użytkownik ma możliwość wybrania organizatora, aby przeglądać tylko wydarzenia przypisane do wybranego organizatora.
+* Użytkownik ma możliwość wybrania organizatora, aby przeglądać tylko wydarzenia przypisane do niego.
 * System może powiadamiać użytkownika (e-mail, push, SMS) kiedy miejsca na wybrane wydarzenia zmieniają status z niedostępnych na dostępne.
 * Możliwość filtrowania wydarzeń po dacie, lokalizacji, cenie lub rodzaju wydarzenia, a także sortowania wg popularności lub dostępności miejsc.
 ___
