@@ -40,8 +40,7 @@ Dokładna instrukcja uruchamiania aplikacji jest dostępna w folderze `docs`: [I
 ___
 ## Specyfikacja wymagań
 
-Szczegółowa specyfikacja wymagań jest dostępna w folderze `docs`:
-- [Wymagania funkcjonalne i pozafunkcjonalne](docs/requirements.md)
+Szczegółowa specyfikacja wymagań jest dostępna w folderze `docs`: [Wymagania funkcjonalne i pozafunkcjonalne](docs/requirements.md)
 ___
 ## Możliwe rozszerzenia systemu
 * Użytkownik ma możliwość wybrania organizatora, aby przeglądać tylko wydarzenia przypisane do niego.
