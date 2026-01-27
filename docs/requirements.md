@@ -24,6 +24,14 @@ ___
 
 **Priorytet:** wymagane
 ___
+**Identyfikator:** FR-04
+
+**Nazwa:** Zapisywanie zmian wprowadzanych przez użytkownika
+
+**Opis:** Użytkownik ma możliwość edycji stanu biletu na danym wydarzeniu (przydatne głównie dla organizatorów), które następnie zapisują się.
+
+**Priorytet:** przydatne
+___
 ### 🟨 WYMAGANIA POZAFUNKCJONALNE
 **Identyfikator:** NFR-01
 
