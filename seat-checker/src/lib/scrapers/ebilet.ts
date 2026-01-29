@@ -51,25 +51,29 @@ export async function scrapeEbiletEvents(page: Page): Promise<RawEvent[]> {
 
   // Click "Zobacz więcej" button repeatedly to load all events
   let iteration = 0;
-  const maxIterations = 15;
+  const maxIterations = 15; // Zabezpieczenie przed nieskończoną pętlą
 
   while (iteration < maxIterations) {
     iteration++;
 
+    // Szukamy przycisku
     const seeMoreBtn = page.locator('button:has-text("Zobacz więcej")').first();
     const isVisible = await seeMoreBtn.isVisible({ timeout: 2000 }).catch(() => false);
 
     if (isVisible) {
+      // Liczymy elementy przed kliknięciem
       const beforeCount = await page.locator('eb-title-event-bar').count();
-      await seeMoreBtn.click();
-      await page.waitForTimeout(2000);
+      await seeMoreBtn.click(); // Symulacja kliknięcia
+      await page.waitForTimeout(2000); // Czekamy na request sieciowy i render
+
+      // Sprawdzamy, czy doszły nowe elementy. Jeśli nie - koniec.
       const afterCount = await page.locator('eb-title-event-bar').count();
 
       if (afterCount === beforeCount) {
         break;
       }
     } else {
-      break;
+      break; // Brak przycisku = koniec listy
     }
   }
 
