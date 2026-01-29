@@ -14,6 +14,7 @@ export function joinEvents(rawEvents: RawEvent[]): JoinedEvent[] {
 
   for (const event of rawEvents) {
     const key = createJoinKey(event);
+    // Grupowanie po kluczu
     if (!eventGroups.has(key)) {
       eventGroups.set(key, []);
     }
@@ -72,7 +73,8 @@ function createJoinKey(event: RawEvent): string {
   const date = event.date || 'unknown';
   const time = event.time || '00:00';
   const city = event.city || 'unknown';
-
+  
+  // Klucz to np.: "2024-05-20|19:00|warszawa"
   return `${date}|${time}|${city}`;
 }
 
