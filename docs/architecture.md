@@ -22,3 +22,55 @@ Przed uruchomieniem aplikacji upewnij się, że Twój komputer spełnia poniższ
 | Dysk                     | Min. 500 MB wolnego miejsca (do pobrania Chromium)    |
 
 > 💡 Node.js to środowisko uruchomieniowe dla JavaScript, które pozwala uruchamiać aplikacje webowe i backend.
+
+## Architektura projektu SEAT CHECKER
+```scss
+           👤 UŻYTKOWNIK (przeglądarka)
+                        │
+                        ▼
+                ┌─────────────────┐
+                │   FRONTEND UI   │
+                │   React +       │
+                │   Tailwind CSS  │
+                └─────────────────┘
+                        │
+                        │ żądanie danych (HTTP)
+                        ▼
+                ┌─────────────────┐
+                │   NEXT.JS       │
+                │   (warstwa      │
+                │   serwerowa)    │
+                └─────────────────┘
+                        │
+                        │ uruchamia kod w Node.js
+                        ▼
+        ┌───────────────────────────────────┐
+        │        LOGIKA SCRAPINGU           │
+        │                                   │
+        │  1️⃣ Playwright                   │
+        │     • otwiera przeglądarkę        │
+        │     • ładuje dynamiczny content   |
+        │     • pobiera gotowy HTML         |
+        │                                   │
+        │  2️⃣ Cheerio                      │
+        │     • analizuje HTML              │
+        │     • wyciąga dane o miejscach    │
+        └───────────────────────────────────┘
+                        │
+                        │ przetworzone dane wracają do Next.js
+                        ▼
+                ┌─────────────────┐
+                │   NEXT.JS       │
+                │   przekazuje    │
+                │   dane do UI    │
+                └─────────────────┘
+                        │
+                        ▼
+                ┌─────────────────┐
+                │ React renderuje │
+                │  listy miejsc   │
+                └─────────────────┘
+                        │
+                        ▼
+                👤 UŻYTKOWNIK widzi wynik
+```
