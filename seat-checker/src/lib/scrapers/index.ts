@@ -13,12 +13,14 @@ export interface ScrapeResult {
 export async function scrapeAllEvents(): Promise<ScrapeResult[]> {
   const results: ScrapeResult[] = [];
   let browser: Browser | null = null;
-
+  
+  // 1. Uruchomienie przeglądarki (kosztowna operacja, robimy to raz)
   try {
     browser = await chromium.launch({
       headless: true,
     });
-
+    
+    // 2. Utworzenie kontekstu przeglądarki (izolowana sesja, jakby osobny profil)
     const context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     });
@@ -29,7 +31,8 @@ export async function scrapeAllEvents(): Promise<ScrapeResult[]> {
       context.newPage(),
       context.newPage(),
     ]);
-
+    
+    // 4. Uruchamiamy wszystkie scrapery równolegle (Promise.all)
     const scrapePromises = [
       scrapeSource('biletyna', biletynaPage, scrapeBiletynaEvents),
       scrapeSource('ebilet', ebiletPage, scrapeEbiletEvents),
@@ -38,7 +41,7 @@ export async function scrapeAllEvents(): Promise<ScrapeResult[]> {
 
     const scrapeResults = await Promise.all(scrapePromises);
     results.push(...scrapeResults);
-
+  // ... obsługa błędów i zamykanie browsera
   } catch (error) {
     console.error('Error during scraping:', error);
   } finally {
