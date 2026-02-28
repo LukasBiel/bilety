@@ -43,65 +43,12 @@ let eventsCache: {
 // GET - fetch cached events or scrape new ones
 export async function GET() {
   try {
-    // Return cached events if available and recent (less than 5 minutes old)
-    if (eventsCache.lastUpdated) {
-      const cacheAge = Date.now() - eventsCache.lastUpdated.getTime();
-      if (cacheAge < 5 * 60 * 1000) {
-        return NextResponse.json({
-          success: true,
-          events: eventsCache.events,
-          lastUpdated: eventsCache.lastUpdated?.toISOString() || new Date().toISOString(),
-          fromCache: true,
-        });
-      }
-    }
-
-    // Scrape fresh events
-    const scrapeResults = await scrapeAllEvents();
-
-    // Collect all raw events
-    const allRawEvents = scrapeResults.flatMap(result => result.events);
-
-    // Join events from all sources
-    // Join events from all sources
-    const joinedEventsRaw = joinEvents(allRawEvents);
-
-    // Enrich events with cache status and "new" status
-    const seenEvents = loadSeenEvents();
-    const joinedEvents = joinedEventsRaw.map(evt => {
-      const isNew = !seenEvents.has(evt.globalEventId);
-      if (isNew) seenEvents.add(evt.globalEventId);
-
-      return {
-        ...evt,
-        hasCache: hasCachedData(evt.globalEventId),
-        cacheTimestamp: getCacheTimestamp(evt.globalEventId) || undefined,
-        isNew
-      };
-    });
-
-    // Save updated seen events
-    saveSeenEvents(seenEvents);
-
-    // Update cache
-    eventsCache = {
-      events: joinedEvents,
-      lastUpdated: new Date(),
-    };
-
-    // Build response with scrape details
-    const sourceDetails = scrapeResults.map(r => ({
-      source: r.source,
-      count: r.events.length,
-      error: r.error,
-    }));
-
+    // Always return cached events for GET. If empty, the user must click Refresh.
     return NextResponse.json({
       success: true,
-      events: joinedEvents,
-      lastUpdated: eventsCache.lastUpdated?.toISOString() || new Date().toISOString(),
-      fromCache: false,
-      sourceDetails,
+      events: eventsCache.events || [],
+      lastUpdated: eventsCache.lastUpdated?.toISOString() || null,
+      fromCache: true,
     });
 
   } catch (error) {

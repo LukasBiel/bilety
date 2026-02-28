@@ -1,0 +1,248 @@
+{
+  "globalEventId": "20260308-1700-andrychow-mr6phf",
+  "title": "Ira - Koncert Elektryczny",
+  "date": "2026-03-08",
+  "perSource": {
+    "ebilet": {
+      "source": "ebilet",
+      "totals": {
+        "total": 66,
+        "free": 0,
+        "taken": 66
+      },
+      "rows": {
+        "V": {
+          "total": 13,
+          "free": 0,
+          "taken": 13
+        },
+        "IV": {
+          "total": 13,
+          "free": 0,
+          "taken": 13
+        },
+        "III": {
+          "total": 13,
+          "free": 0,
+          "taken": 13
+        },
+        "II": {
+          "total": 13,
+          "free": 0,
+          "taken": 13
+        },
+        "I": {
+          "total": 13,
+          "free": 0,
+          "taken": 13
+        },
+        "Parter (miejsca stojące)": {
+          "total": 1,
+          "free": 0,
+          "taken": 1
+        }
+      },
+      "freeSeats": [],
+      "takenSeats": [
+        "I-1",
+        "I-10",
+        "I-11",
+        "I-12",
+        "I-13",
+        "I-2",
+        "I-3",
+        "I-4",
+        "I-5",
+        "I-6",
+        "I-7",
+        "I-8",
+        "I-9",
+        "II-1",
+        "II-10",
+        "II-11",
+        "II-12",
+        "II-13",
+        "II-2",
+        "II-3",
+        "II-4",
+        "II-5",
+        "II-6",
+        "II-7",
+        "II-8",
+        "II-9",
+        "III-1",
+        "III-10",
+        "III-11",
+        "III-12",
+        "III-13",
+        "III-2",
+        "III-3",
+        "III-4",
+        "III-5",
+        "III-6",
+        "III-7",
+        "III-8",
+        "III-9",
+        "IV-1",
+        "IV-10",
+        "IV-11",
+        "IV-12",
+        "IV-13",
+        "IV-2",
+        "IV-3",
+        "IV-4",
+        "IV-5",
+        "IV-6",
+        "IV-7",
+        "IV-8",
+        "IV-9",
+        "Parter (miejsca stojące)-Parter (miejsca stojące)",
+        "V-1",
+        "V-10",
+        "V-11",
+        "V-12",
+        "V-13",
+        "V-2",
+        "V-3",
+        "V-4",
+        "V-5",
+        "V-6",
+        "V-7",
+        "V-8",
+        "V-9"
+      ],
+      "sectors": [
+        {
+          "sectorName": "Sektor 1",
+          "rows": {
+            "V": {
+              "total": 13,
+              "free": 0,
+              "taken": 13
+            },
+            "IV": {
+              "total": 13,
+              "free": 0,
+              "taken": 13
+            },
+            "III": {
+              "total": 13,
+              "free": 0,
+              "taken": 13
+            },
+            "II": {
+              "total": 13,
+              "free": 0,
+              "taken": 13
+            },
+            "I": {
+              "total": 13,
+              "free": 0,
+              "taken": 13
+            }
+          },
+          "freeSeats": [],
+          "takenSeats": [
+            "V-13",
+            "V-12",
+            "V-11",
+            "V-10",
+            "V-9",
+            "V-8",
+            "V-7",
+            "V-6",
+            "V-5",
+            "V-4",
+            "V-3",
+            "V-2",
+            "V-1",
+            "IV-13",
+            "IV-12",
+            "IV-11",
+            "IV-10",
+            "IV-9",
+            "IV-8",
+            "IV-7",
+            "IV-6",
+            "IV-5",
+            "IV-4",
+            "IV-3",
+            "IV-2",
+            "IV-1",
+            "III-13",
+            "III-12",
+            "III-11",
+            "III-10",
+            "III-9",
+            "III-8",
+            "III-7",
+            "III-6",
+            "III-5",
+            "III-4",
+            "III-3",
+            "III-2",
+            "III-1",
+            "II-13",
+            "II-12",
+            "II-11",
+            "II-10",
+            "II-9",
+            "II-8",
+            "II-7",
+            "II-6",
+            "II-5",
+            "II-4",
+            "II-3",
+            "II-2",
+            "II-1",
+            "I-13",
+            "I-12",
+            "I-11",
+            "I-10",
+            "I-9",
+            "I-8",
+            "I-7",
+            "I-6",
+            "I-5",
+            "I-4",
+            "I-3",
+            "I-2",
+            "I-1"
+          ],
+          "totals": {
+            "total": 65,
+            "free": 0,
+            "taken": 65
+          }
+        },
+        {
+          "sectorName": "Sektor 2",
+          "rows": {
+            "Parter (miejsca stojące)": {
+              "total": 1,
+              "free": 0,
+              "taken": 1
+            }
+          },
+          "freeSeats": [],
+          "takenSeats": [
+            "Parter (miejsca stojące)-Parter (miejsca stojące)"
+          ],
+          "totals": {
+            "total": 1,
+            "free": 0,
+            "taken": 1
+          }
+        }
+      ],
+      "finalUrl": "https://sklep.ebilet.pl/144115188075856318"
+    }
+  },
+  "combinedTotals": {
+    "total": 66,
+    "free": 0,
+    "taken": 66
+  },
+  "inferredSold": {},
+  "lastFetched": "2026-02-28T15:10:16.887Z"
+}

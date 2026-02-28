@@ -73,9 +73,9 @@ interface CombinedEventStats {
   };
   inferredSold?: Record<string, 'biletyna' | 'ebilet' | 'kupbilecik'>;
   diff?: {
-    biletynaTaken: number;
-    ebiletTaken: number;
-    kupbilecikTaken: number;
+    biletynaSold: number;
+    ebiletSold: number;
+    kupbilecikSold: number;
     lastUpdated: string;
   };
 }
@@ -792,6 +792,11 @@ export default function Home() {
     kupbilecikTaken: number;
   } | null>(null);
 
+  // Background Refresh States
+  const [backgroundRefreshId, setBackgroundRefreshId] = useState<string | null>(null);
+  const [updateAvailable, setUpdateAvailable] = useState(false);
+  const [lastRefreshStartTime, setLastRefreshStartTime] = useState<number | null>(null);
+
   // Pomocnik: czy kolor jest "ciemny" (sold/taken)
   const isDarkColor = (color: string): boolean => {
     return color === SEAT_COLORS.biletyna.taken ||
@@ -1047,30 +1052,82 @@ export default function Home() {
     }
   };
 
-  const fetchEventStats = async (event: JoinedEvent) => {
-    setSelectedEvent(event);
-    setEventStats(null);
-    setStatsError(null);
-    setStatsLoading(true);
-    setEditedColors(new Map());
-    setSavedOverrides({});
-    setOverridesLastUpdated(null);
+  // Polling Effect for Background Refresh
+  useEffect(() => {
+    if (!backgroundRefreshId) return;
+
+    const interval = setInterval(async () => {
+      try {
+        const res = await fetch(`/api/events/${backgroundRefreshId}/stats`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data.success && data.stats) {
+            // Check if stats are newer than when we started the refresh
+            const fetchedTime = new Date(data.stats.lastFetched || 0).getTime();
+            const startTime = lastRefreshStartTime || 0;
+
+            if (fetchedTime > startTime) {
+              setUpdateAvailable(true);
+              setBackgroundRefreshId(null); // Stop polling
+              clearInterval(interval);
+            }
+          }
+        }
+      } catch (e) {
+        // Ignore polling errors
+      }
+    }, 3000); // Check every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [backgroundRefreshId, lastRefreshStartTime]);
+
+  const fetchEventStats = async (event: JoinedEvent, forceRefresh: boolean = false) => {
+    // Jeśli nie wymuszamy odświeżenia, możemy od razu ustawić zdarzenie (pokazując stare dane/loader)
+    // Jeśli wymuszamy, nadpisujemy stan (co spowoduje ponowne renderowanie, ale loader statsLoading to obsłuży)
+    if (!forceRefresh) {
+      setSelectedEvent(event);
+      setEventStats(null);
+      setStatsLoading(true);
+      setStatsError(null);
+      setEditedColors(new Map());
+      setSavedOverrides({});
+      setOverridesLastUpdated(null);
+      // Reset background state on new selection
+      setBackgroundRefreshId(null);
+      setUpdateAvailable(false);
+    } else {
+      // Start loading indicator for a moment
+      setStatsLoading(true);
+    }
 
     try {
+      // Background Mode: If force refresh, we ask for background execution
+      const background = forceRefresh;
+
       // Równolegle pobierz statystyki i zapisane overrides
       const [statsResponse, overrides] = await Promise.all([
         fetch(`/api/events/${event.globalEventId}/stats`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ event }),
+          body: JSON.stringify({ event, forceRefresh, background }),
         }),
         loadOverrides(event.globalEventId),
       ]);
+
+      if (statsResponse.status === 202) {
+        // Background execution started
+        setBackgroundRefreshId(event.globalEventId);
+        setLastRefreshStartTime(Date.now());
+        setStatsLoading(false); // Stop blocking UI immediately
+        // Do not update stats yet
+        return;
+      }
 
       const statsData = await statsResponse.json();
 
       if (statsData.success) {
         setEventStats(statsData.stats);
+        setStatsLoading(false); // Stop loading
 
         // Jeśli są zapisane overrides, zastosuj je do editedColors
         if (Object.keys(overrides).length > 0) {
@@ -1084,16 +1141,20 @@ export default function Home() {
         // Update events list optimistic cache state
         setEvents(prev => prev.map(e => {
           if (e.globalEventId === event.globalEventId) {
-            return { ...e, hasCache: true, cacheTimestamp: Date.now() };
+            return {
+              ...e,
+              hasCache: true,
+              cacheTimestamp: forceRefresh ? Date.now() : e.cacheTimestamp
+            };
           }
           return e;
         }));
       } else {
         setStatsError(statsData.error || 'Failed to fetch stats');
+        setStatsLoading(false);
       }
     } catch (err) {
       setStatsError('Connection error');
-    } finally {
       setStatsLoading(false);
     }
   };
@@ -1403,6 +1464,33 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex items-center gap-3">
+                {/* Load Button (visible when background refresh finishes) */}
+                {updateAvailable && selectedEvent && (
+                  <button
+                    onClick={() => {
+                      if (selectedEvent) {
+                        fetchEventStats(selectedEvent, false);
+                        setUpdateAvailable(false);
+                      }
+                    }}
+                    className="mr-2 px-3 py-1 text-xs font-bold text-white bg-green-500 rounded hover:bg-green-600 transition-all animate-pulse"
+                    title="Nowe dane są gotowe. Kliknij, aby załadować."
+                  >
+                    Załaduj dane
+                  </button>
+                )}
+
+                <button
+                  onClick={() => fetchEventStats(selectedEvent, true)}
+                  disabled={statsLoading || (backgroundRefreshId === selectedEvent.globalEventId)}
+                  className="px-3 py-1 text-xs font-medium bg-blue-50 text-blue-600 border border-blue-200 rounded hover:bg-blue-100 transition-colors flex items-center gap-1 disabled:opacity-50 disabled:cursor-not-allowed"
+                  title="Wymuś pobranie nowych danych z portali"
+                >
+                  <svg className={`w-4 h-4 ${(statsLoading || (backgroundRefreshId === selectedEvent.globalEventId)) ? 'animate-spin' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                  </svg>
+                  {(statsLoading || (backgroundRefreshId === selectedEvent.globalEventId)) ? 'Odświeżanie...' : 'Odśwież'}
+                </button>
                 <button
                   onClick={clearCache}
                   className="px-3 py-1 text-xs font-medium bg-red-50 text-red-600 border border-red-200 rounded hover:bg-red-100 transition-colors"
@@ -1471,6 +1559,22 @@ export default function Home() {
 
                 // Oblicz statystyki z uwzglednieniem edycji (uzywane w obu sekcjach)
                 const currentStats = calculateStatsFromColors(allSeatColors, editedColors, totalSeatsCount);
+
+                // Fallback: If map rendering yielded 0 seats for a source (e.g. unmapped SmartCache data without geometry),
+                // use the real backend totals so the overview cards still display correct numbers.
+                if (currentStats.biletynaFree + currentStats.biletynaTaken === 0 && eventStats.perSource.biletyna) {
+                  currentStats.biletynaFree = eventStats.perSource.biletyna.totals.free;
+                  currentStats.biletynaTaken = eventStats.perSource.biletyna.totals.taken;
+                }
+                if (currentStats.ebiletFree + currentStats.ebiletTaken === 0 && eventStats.perSource.ebilet) {
+                  currentStats.ebiletFree = eventStats.perSource.ebilet.totals.free;
+                  currentStats.ebiletTaken = eventStats.perSource.ebilet.totals.taken;
+                }
+                if (currentStats.kupbilecikFree + currentStats.kupbilecikTaken === 0 && eventStats.perSource.kupbilecik) {
+                  currentStats.kupbilecikFree = eventStats.perSource.kupbilecik.totals.free;
+                  currentStats.kupbilecikTaken = eventStats.perSource.kupbilecik.totals.taken;
+                }
+
                 const totalFree = currentStats.biletynaFree + currentStats.ebiletFree + currentStats.kupbilecikFree;
 
                 // Oblicz procent sprzedanych per portal (kupione / (kupione + wolne) dla danego portalu)
@@ -1522,7 +1626,7 @@ export default function Home() {
                             <span className="w-4 h-4 rounded-full" style={{ backgroundColor: SEAT_COLORS.biletyna.taken }}></span>
                             <span>Kupione: {currentStats.biletynaTaken}</span>
                             {eventStats.diff && (
-                              <span className="text-xs text-green-600 font-medium" title={`Wzrost od ostatniej aktualizacji: ${new Date(eventStats.diff.lastUpdated).toLocaleTimeString()}`}>+{eventStats.diff.biletynaTaken}</span>
+                              <span className="text-xs text-green-600 font-medium" title={`Nowo sprzedane od ostatniej aktualizacji: ${new Date(eventStats.diff.lastUpdated).toLocaleTimeString()}`}>+{eventStats.diff.biletynaSold}</span>
                             )}
                             {!eventStats.diff && savedStatsSnapshot && currentStats.biletynaTaken > savedStatsSnapshot.biletynaTaken && (
                               <span className="text-xs text-green-600 font-medium">+{currentStats.biletynaTaken - savedStatsSnapshot.biletynaTaken}</span>
@@ -1546,7 +1650,7 @@ export default function Home() {
                             <span className="w-4 h-4 rounded-full" style={{ backgroundColor: SEAT_COLORS.ebilet.taken }}></span>
                             <span>Kupione: {currentStats.ebiletTaken}</span>
                             {eventStats.diff && (
-                              <span className="text-xs text-green-600 font-medium" title={`Wzrost od ostatniej aktualizacji: ${new Date(eventStats.diff.lastUpdated).toLocaleTimeString()}`}>+{eventStats.diff.ebiletTaken}</span>
+                              <span className="text-xs text-green-600 font-medium" title={`Nowo sprzedane od ostatniej aktualizacji: ${new Date(eventStats.diff.lastUpdated).toLocaleTimeString()}`}>+{eventStats.diff.ebiletSold}</span>
                             )}
                             {!eventStats.diff && savedStatsSnapshot && currentStats.ebiletTaken > savedStatsSnapshot.ebiletTaken && (
                               <span className="text-xs text-green-600 font-medium">+{currentStats.ebiletTaken - savedStatsSnapshot.ebiletTaken}</span>
@@ -1570,7 +1674,7 @@ export default function Home() {
                             <span className="w-4 h-4 rounded-full" style={{ backgroundColor: SEAT_COLORS.kupbilecik.taken }}></span>
                             <span>Kupione: {currentStats.kupbilecikTaken}</span>
                             {eventStats.diff && (
-                              <span className="text-xs text-green-600 font-medium" title={`Wzrost od ostatniej aktualizacji: ${new Date(eventStats.diff.lastUpdated).toLocaleTimeString()}`}>+{eventStats.diff.kupbilecikTaken}</span>
+                              <span className="text-xs text-green-600 font-medium" title={`Nowo sprzedane od ostatniej aktualizacji: ${new Date(eventStats.diff.lastUpdated).toLocaleTimeString()}`}>+{eventStats.diff.kupbilecikSold}</span>
                             )}
                             {!eventStats.diff && savedStatsSnapshot && currentStats.kupbilecikTaken > savedStatsSnapshot.kupbilecikTaken && (
                               <span className="text-xs text-green-600 font-medium">+{currentStats.kupbilecikTaken - savedStatsSnapshot.kupbilecikTaken}</span>
@@ -2204,6 +2308,16 @@ export default function Home() {
                 );
               })()}
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Background Refresh Indicator */}
+      {backgroundRefreshId && (
+        <div className="fixed bottom-6 right-6 z-40">
+          <div className="bg-gray-800 text-white px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 opacity-80 text-sm">
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            Aktualizacja w tle...
           </div>
         </div>
       )}

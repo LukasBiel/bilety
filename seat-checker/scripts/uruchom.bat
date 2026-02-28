@@ -32,12 +32,25 @@ echo Aplikacja bedzie dostepna pod adresem: http://localhost:3000
 echo Nie zamykaj tego czarnego okna, dopoki korzystasz z programu!
 echo.
 
-:: Otworz przegladarke po 5 sekundach
-timeout /t 5
+:: Start aplikacji w nowym oknie
+start "Serwer Next.js" cmd /c "npm run dev"
+
+echo.
+echo [INFO] Czekam 10 sekund na start serwera...
+timeout /t 10
+
+echo.
+echo [INFO] Serwer dziala. Uruchamiam bota powiadomien Discord (CRON JOB)...
+echo Nie zamykaj tego czarnego okna, jesli chcesz otrzymywac powiadomienia!
+echo Zamykajac to okno wylaczysz zarowno bota, jak i serwer.
+echo.
+
+:: Otworz przegladarke
 start "" "http://localhost:3000"
 
-:: Start aplikacji
-call npm run dev
+:: Start Crona w glownym oknie
+node scripts/cron-worker.js
+
 goto Koniec
 
 :BladNode

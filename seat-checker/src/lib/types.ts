@@ -95,11 +95,12 @@ export interface CombinedEventStats {
   // Inferred sold seats from history (SeatKey -> Source)
   inferredSold?: Record<string, SourceType>;
   diff?: {
-    biletynaTaken: number;
-    ebiletTaken: number;
-    kupbilecikTaken: number;
+    biletynaSold: number;
+    ebiletSold: number;
+    kupbilecikSold: number;
     lastUpdated: string;
   };
+  lastFetched?: string; // ISO timestamp of when this object was created/cached
 }
 
 // Organizer URLs configuration
@@ -108,3 +109,10 @@ export const ORGANIZER_URLS = {
   ebilet: 'https://www.ebilet.pl/organizatorzy/wikart-malgorzata-wnuk',
   kupbilecik: 'https://wikart.kupbilecik.pl/',
 } as const;
+
+// Result of a scraping operation
+export interface ScrapeResult {
+  source: SourceType;
+  events: RawEvent[];
+  error?: string;
+}

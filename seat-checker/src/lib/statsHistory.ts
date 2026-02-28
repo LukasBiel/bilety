@@ -7,6 +7,9 @@ export interface StatsHistoryEntry {
     biletynaTaken: number;
     ebiletTaken: number;
     kupbilecikTaken: number;
+    biletynaFree?: number;
+    ebiletFree?: number;
+    kupbilecikFree?: number;
     timestamp: string;
 }
 
@@ -38,5 +41,20 @@ export async function saveStatsHistory(eventId: string, entry: StatsHistoryEntry
         await fs.promises.writeFile(STATS_HISTORY_FILE, JSON.stringify(history, null, 2));
     } catch (error) {
         console.error('Error saving stats history:', error);
+    }
+}
+
+export async function clearStatsHistory(eventId: string) {
+    try {
+        if (fs.existsSync(STATS_HISTORY_FILE)) {
+            const data = await fs.promises.readFile(STATS_HISTORY_FILE, 'utf-8');
+            const history = JSON.parse(data);
+            if (history[eventId]) {
+                delete history[eventId];
+                await fs.promises.writeFile(STATS_HISTORY_FILE, JSON.stringify(history, null, 2));
+            }
+        }
+    } catch (error) {
+        console.error('Error clearing stats history:', error);
     }
 }

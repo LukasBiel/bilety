@@ -1,9 +1,9 @@
 {
   "20260131-1900-dabrowago-edyigw": {
-    "biletynaTaken": 529,
-    "ebiletTaken": 599,
-    "kupbilecikTaken": 446,
-    "timestamp": "2026-01-17T15:00:56.289Z"
+    "biletynaTaken": 542,
+    "ebiletTaken": 653,
+    "kupbilecikTaken": 496,
+    "timestamp": "2026-01-27T20:48:02.261Z"
   },
   "20260131-1900-łancut-7eaqpv": {
     "biletynaTaken": 298,
@@ -30,63 +30,420 @@
     "timestamp": "2026-01-17T23:48:42.094Z"
   },
   "20260206-1900-gdynia-b0k194": {
-    "biletynaTaken": 405,
-    "ebiletTaken": 479,
-    "kupbilecikTaken": 396,
-    "timestamp": "2026-01-21T13:20:17.571Z"
+    "biletynaTaken": 441,
+    "ebiletTaken": 477,
+    "kupbilecikTaken": 430,
+    "timestamp": "2026-02-04T01:26:14.287Z"
   },
   "20260207-1800-dabrowago-1uo5su": {
-    "biletynaTaken": 525,
-    "ebiletTaken": 568,
-    "kupbilecikTaken": 495,
-    "timestamp": "2026-01-17T11:03:57.643Z"
+    "biletynaTaken": 521,
+    "ebiletTaken": 605,
+    "kupbilecikTaken": 0,
+    "timestamp": "2026-02-04T01:32:01.287Z"
   },
   "20260208-1600-czestochow-13wx4p": {
-    "biletynaTaken": 410,
-    "ebiletTaken": 448,
-    "kupbilecikTaken": 361,
-    "timestamp": "2026-01-17T23:51:52.460Z"
+    "biletynaTaken": 441,
+    "ebiletTaken": 482,
+    "kupbilecikTaken": 434,
+    "timestamp": "2026-02-04T01:33:05.786Z"
   },
   "20260212-1900-torun-qff14y": {
-    "biletynaTaken": 715,
-    "ebiletTaken": 757,
-    "kupbilecikTaken": 777,
-    "timestamp": "2026-01-18T19:03:28.886Z"
+    "biletynaTaken": 728,
+    "ebiletTaken": 788,
+    "kupbilecikTaken": 797,
+    "timestamp": "2026-01-28T22:03:10.788Z"
   },
   "20260412-1800-chełm-1uo5su": {
-    "biletynaTaken": 426,
-    "ebiletTaken": 415,
-    "kupbilecikTaken": 409,
-    "timestamp": "2026-01-17T23:56:04.801Z"
+    "biletynaTaken": 454,
+    "ebiletTaken": 423,
+    "kupbilecikTaken": 429,
+    "biletynaFree": 50,
+    "ebiletFree": 81,
+    "kupbilecikFree": 75,
+    "timestamp": "2026-02-28T16:01:17.069Z"
   },
   "20260511-1900-gdynia-e3m0as": {
-    "biletynaTaken": 848,
-    "ebiletTaken": 825,
-    "kupbilecikTaken": 820,
-    "timestamp": "2026-01-21T13:16:28.526Z"
+    "biletynaTaken": 857,
+    "ebiletTaken": 841,
+    "kupbilecikTaken": 835,
+    "timestamp": "2026-02-27T22:40:37.372Z"
   },
   "20260426-1700-zywiec-x61gl1": {
     "biletynaTaken": 270,
-    "ebiletTaken": 260,
-    "kupbilecikTaken": 208,
-    "timestamp": "2026-01-21T13:24:23.752Z"
+    "ebiletTaken": 278,
+    "kupbilecikTaken": 213,
+    "biletynaFree": 80,
+    "ebiletFree": 72,
+    "kupbilecikFree": 137,
+    "timestamp": "2026-02-28T16:14:42.005Z"
   },
   "20260130-1900-rybnik-pumagr": {
     "biletynaTaken": 0,
-    "ebiletTaken": 599,
-    "kupbilecikTaken": 588,
-    "timestamp": "2026-01-21T13:13:58.295Z"
+    "ebiletTaken": 601,
+    "kupbilecikTaken": 605,
+    "timestamp": "2026-01-27T20:46:15.887Z"
   },
   "20260418-1800-swiebodzin-b0k194": {
-    "biletynaTaken": 342,
-    "ebiletTaken": 305,
-    "kupbilecikTaken": 322,
-    "timestamp": "2026-01-21T13:20:31.052Z"
+    "biletynaTaken": 348,
+    "ebiletTaken": 311,
+    "kupbilecikTaken": 351,
+    "biletynaFree": 52,
+    "ebiletFree": 89,
+    "kupbilecikFree": 49,
+    "timestamp": "2026-02-28T16:02:51.391Z"
   },
   "20260210-1900-łodz-xtc7pp": {
     "biletynaTaken": 554,
     "ebiletTaken": 567,
     "kupbilecikTaken": 484,
     "timestamp": "2026-01-21T13:38:59.958Z"
+  },
+  "20260423-1900-koszalin-ly634y": {
+    "biletynaTaken": 340,
+    "ebiletTaken": 342,
+    "kupbilecikTaken": 0,
+    "timestamp": "2026-01-28T22:13:19.057Z"
+  },
+  "20260207-1900-inowrocław-b0k194": {
+    "biletynaTaken": 339,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 343,
+    "timestamp": "2026-02-04T00:36:16.186Z"
+  },
+  "20260516-1900-zywiec-13wx4p": {
+    "biletynaTaken": 282,
+    "ebiletTaken": 250,
+    "kupbilecikTaken": 289,
+    "timestamp": "2026-02-27T22:33:10.923Z"
+  },
+  "20260517-1700-sosnowiec-13wx4p": {
+    "biletynaTaken": 416,
+    "ebiletTaken": 386,
+    "kupbilecikTaken": 390,
+    "timestamp": "2026-02-27T22:30:38.299Z"
+  },
+  "20260427-1900-wrocław-3fieo4": {
+    "biletynaTaken": 365,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 344,
+    "timestamp": "2026-02-04T01:35:04.182Z"
+  },
+  "20260425-1900-warszawa-5oge3u": {
+    "biletynaTaken": 304,
+    "ebiletTaken": 217,
+    "kupbilecikTaken": 0,
+    "biletynaFree": 28,
+    "ebiletFree": 115,
+    "kupbilecikFree": 0,
+    "timestamp": "2026-02-28T16:12:36.314Z"
+  },
+  "20260425-1700-wrocław-oj4058": {
+    "biletynaTaken": 350,
+    "ebiletTaken": 387,
+    "kupbilecikTaken": 338,
+    "biletynaFree": 150,
+    "ebiletFree": 113,
+    "kupbilecikFree": 162,
+    "timestamp": "2026-02-28T16:11:47.289Z"
+  },
+  "20260424-1900-dabrowago-u9b3rb": {
+    "biletynaTaken": 518,
+    "ebiletTaken": 589,
+    "kupbilecikTaken": 468,
+    "biletynaFree": 72,
+    "ebiletFree": 82,
+    "kupbilecikFree": 122,
+    "timestamp": "2026-02-28T16:08:09.251Z"
+  },
+  "20260423-1900-dabrowago-b0k194": {
+    "biletynaTaken": 483,
+    "ebiletTaken": 576,
+    "kupbilecikTaken": 488,
+    "biletynaFree": 107,
+    "ebiletFree": 95,
+    "kupbilecikFree": 102,
+    "timestamp": "2026-02-28T16:07:04.755Z"
+  },
+  "20260424-1900-cieszyn-b0k194": {
+    "biletynaTaken": 369,
+    "ebiletTaken": 504,
+    "kupbilecikTaken": 409,
+    "biletynaFree": 76,
+    "ebiletFree": 102,
+    "kupbilecikFree": 190,
+    "timestamp": "2026-02-28T16:10:38.468Z"
+  },
+  "20261115-1700-krakow-x61gl1": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 476,
+    "kupbilecikTaken": 451,
+    "biletynaFree": 0,
+    "ebiletFree": 103,
+    "kupbilecikFree": 128,
+    "timestamp": "2026-02-28T18:45:17.655Z"
+  },
+  "20261018-1700-tychy-qff14y": {
+    "biletynaTaken": 386,
+    "ebiletTaken": 378,
+    "kupbilecikTaken": 357,
+    "biletynaFree": 40,
+    "ebiletFree": 48,
+    "kupbilecikFree": 69,
+    "timestamp": "2026-02-28T18:45:45.725Z"
+  },
+  "20260228-1800-dabrowago-62b27q": {
+    "biletynaTaken": 573,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 555,
+    "timestamp": "2026-02-27T22:14:28.410Z"
+  },
+  "20260228-1900-pszczyna-b0k194": {
+    "biletynaTaken": 417,
+    "ebiletTaken": 476,
+    "kupbilecikTaken": 0,
+    "biletynaFree": 29,
+    "ebiletFree": 18,
+    "kupbilecikFree": 0,
+    "timestamp": "2026-02-28T13:45:04.170Z"
+  },
+  "20260522-1900-pruszkow-13wx4p": {
+    "biletynaTaken": 282,
+    "ebiletTaken": 317,
+    "kupbilecikTaken": 341,
+    "biletynaFree": 116,
+    "ebiletFree": 81,
+    "kupbilecikFree": 57,
+    "timestamp": "2026-02-28T18:32:55.368Z"
+  },
+  "20260517-1700-łancut-x61gl1": {
+    "biletynaTaken": 274,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 214,
+    "timestamp": "2026-02-27T22:43:26.178Z"
+  },
+  "20260301-1700-chrzanow-b0k194": {
+    "biletynaTaken": 533,
+    "ebiletTaken": 540,
+    "kupbilecikTaken": 526,
+    "biletynaFree": 64,
+    "ebiletFree": 56,
+    "kupbilecikFree": 70,
+    "timestamp": "2026-02-28T18:24:24.402Z"
+  },
+  "20260304-1900-rybnik-ww3mx9": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 551,
+    "kupbilecikTaken": 604,
+    "biletynaFree": 0,
+    "ebiletFree": 74,
+    "kupbilecikFree": 46,
+    "timestamp": "2026-02-28T18:25:17.370Z"
+  },
+  "20260307-1700-wrocław-ly634y": {
+    "biletynaTaken": 464,
+    "ebiletTaken": 462,
+    "kupbilecikTaken": 426,
+    "biletynaFree": 36,
+    "ebiletFree": 38,
+    "kupbilecikFree": 74,
+    "timestamp": "2026-02-28T18:26:14.713Z"
+  },
+  "20260308-1700-andrychow-mr6phf": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 66,
+    "kupbilecikTaken": 0,
+    "biletynaFree": 0,
+    "ebiletFree": 0,
+    "kupbilecikFree": 0,
+    "timestamp": "2026-02-28T15:10:16.882Z"
+  },
+  "20260311-1930-krakow-spgvm2": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 562,
+    "kupbilecikTaken": 523,
+    "biletynaFree": 0,
+    "ebiletFree": 17,
+    "kupbilecikFree": 56,
+    "timestamp": "2026-02-28T15:26:52.671Z"
+  },
+  "20260409-1900-chorzow-edyigw": {
+    "biletynaTaken": 381,
+    "ebiletTaken": 327,
+    "kupbilecikTaken": 355,
+    "biletynaFree": 55,
+    "ebiletFree": 109,
+    "kupbilecikFree": 81,
+    "timestamp": "2026-02-28T15:33:45.828Z"
+  },
+  "20260309-1800-poznan-h3cq5s": {
+    "biletynaTaken": 306,
+    "ebiletTaken": 363,
+    "kupbilecikTaken": 390,
+    "biletynaFree": 66,
+    "ebiletFree": 145,
+    "kupbilecikFree": 77,
+    "timestamp": "2026-02-28T17:48:43.487Z"
+  },
+  "20260411-1900-nysa-b0k194": {
+    "biletynaTaken": 419,
+    "ebiletTaken": 373,
+    "kupbilecikTaken": 401,
+    "biletynaFree": 46,
+    "ebiletFree": 92,
+    "kupbilecikFree": 64,
+    "timestamp": "2026-02-28T15:58:30.847Z"
+  },
+  "20260411-1900-łancut-3fieo4": {
+    "biletynaTaken": 264,
+    "ebiletTaken": 292,
+    "kupbilecikTaken": 245,
+    "biletynaFree": 61,
+    "ebiletFree": 33,
+    "kupbilecikFree": 80,
+    "timestamp": "2026-02-28T15:59:10.092Z"
+  },
+  "20260412-1700-czerwionka-b0k194": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 289,
+    "kupbilecikTaken": 313,
+    "biletynaFree": 0,
+    "ebiletFree": 65,
+    "kupbilecikFree": 41,
+    "timestamp": "2026-02-28T16:00:06.044Z"
+  },
+  "20260416-1900-pruszkow-e3m0as": {
+    "biletynaTaken": 385,
+    "ebiletTaken": 393,
+    "kupbilecikTaken": 392,
+    "biletynaFree": 13,
+    "ebiletFree": 5,
+    "kupbilecikFree": 6,
+    "timestamp": "2026-02-28T16:00:58.858Z"
+  },
+  "20260417-1900-krakow-dhe7do": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 541,
+    "kupbilecikTaken": 554,
+    "biletynaFree": 0,
+    "ebiletFree": 38,
+    "kupbilecikFree": 25,
+    "timestamp": "2026-02-28T16:02:26.096Z"
+  },
+  "20260418-1900-rybnik-dhe7do": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 444,
+    "kupbilecikTaken": 528,
+    "biletynaFree": 0,
+    "ebiletFree": 181,
+    "kupbilecikFree": 122,
+    "timestamp": "2026-02-28T16:03:18.435Z"
+  },
+  "20260421-1900-inowrocław-ly634y": {
+    "biletynaTaken": 312,
+    "ebiletTaken": 262,
+    "kupbilecikTaken": 289,
+    "biletynaFree": 60,
+    "ebiletFree": 109,
+    "kupbilecikFree": 82,
+    "timestamp": "2026-02-28T16:04:53.896Z"
+  },
+  "20260422-1900-szczecin-ly634y": {
+    "biletynaTaken": 658,
+    "ebiletTaken": 670,
+    "kupbilecikTaken": 654,
+    "biletynaFree": 162,
+    "ebiletFree": 283,
+    "kupbilecikFree": 191,
+    "timestamp": "2026-02-28T16:05:48.095Z"
+  },
+  "20260424-1900-gdynia-ly634y": {
+    "biletynaTaken": 386,
+    "ebiletTaken": 356,
+    "kupbilecikTaken": 356,
+    "biletynaFree": 58,
+    "ebiletFree": 136,
+    "kupbilecikFree": 88,
+    "timestamp": "2026-02-28T16:07:41.134Z"
+  },
+  "20260424-2030-warszawa-gz2rq2": {
+    "biletynaTaken": 289,
+    "ebiletTaken": 217,
+    "kupbilecikTaken": 0,
+    "biletynaFree": 43,
+    "ebiletFree": 115,
+    "kupbilecikFree": 0,
+    "timestamp": "2026-02-28T16:11:15.135Z"
+  },
+  "20260521-1900-konin-1uo5su": {
+    "biletynaTaken": 523,
+    "ebiletTaken": 514,
+    "kupbilecikTaken": 433,
+    "biletynaFree": 134,
+    "ebiletFree": 142,
+    "kupbilecikFree": 224,
+    "timestamp": "2026-02-28T18:31:50.765Z"
+  },
+  "20260522-1900-rybnik-j0o4lw": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 478,
+    "kupbilecikTaken": 392,
+    "biletynaFree": 0,
+    "ebiletFree": 147,
+    "kupbilecikFree": 258,
+    "timestamp": "2026-02-28T18:42:24.962Z"
+  },
+  "20260522-2000-krakow-548p6m": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 548,
+    "kupbilecikTaken": 529,
+    "biletynaFree": 0,
+    "ebiletFree": 31,
+    "kupbilecikFree": 50,
+    "timestamp": "2026-02-28T18:42:50.811Z"
+  },
+  "20260524-1700-krakow-ly634y": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 520,
+    "kupbilecikTaken": 567,
+    "biletynaFree": 0,
+    "ebiletFree": 59,
+    "kupbilecikFree": 12,
+    "timestamp": "2026-02-28T18:43:13.608Z"
+  },
+  "20260616-1800-wrocław-1sswo0": {
+    "biletynaTaken": 329,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 310,
+    "biletynaFree": 171,
+    "ebiletFree": 0,
+    "kupbilecikFree": 190,
+    "timestamp": "2026-02-28T18:43:52.488Z"
+  },
+  "20260918-1900-rybnik-mzfxs1": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 505,
+    "kupbilecikTaken": 473,
+    "biletynaFree": 0,
+    "ebiletFree": 120,
+    "kupbilecikFree": 177,
+    "timestamp": "2026-02-28T18:44:15.503Z"
+  },
+  "20261009-1900-krakow-g4xiwc": {
+    "biletynaTaken": 0,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 467,
+    "biletynaFree": 0,
+    "ebiletFree": 0,
+    "kupbilecikFree": 112,
+    "timestamp": "2026-02-28T18:44:30.313Z"
+  },
+  "20261013-1900-tychy-g4xiwc": {
+    "biletynaTaken": 357,
+    "ebiletTaken": 0,
+    "kupbilecikTaken": 255,
+    "biletynaFree": 69,
+    "ebiletFree": 0,
+    "kupbilecikFree": 171,
+    "timestamp": "2026-02-28T18:44:49.113Z"
   }
 }

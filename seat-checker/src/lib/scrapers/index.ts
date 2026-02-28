@@ -1,29 +1,24 @@
-import { chromium, type Browser, type Page } from 'playwright';
-import type { RawEvent, SourceType } from '../types';
+import { type Browser, type Page } from 'playwright';
+import type { RawEvent, SourceType, ScrapeResult } from '../types';
+import { getGlobalBrowser } from '../globalBrowser';
 import { scrapeBiletynaEvents } from './biletyna';
 import { scrapeEbiletEvents } from './ebilet';
 import { scrapeKupbilecikEvents } from './kupbilecik';
 
-export interface ScrapeResult {
-  source: SourceType;
-  events: RawEvent[];
-  error?: string;
-}
+
 
 export async function scrapeAllEvents(): Promise<ScrapeResult[]> {
   const results: ScrapeResult[] = [];
-  let browser: Browser | null = null;
-  
-  // 1. Uruchomienie przeglądarki (kosztowna operacja, robimy to raz)
+
   try {
-    browser = await chromium.launch({
-      headless: true,
-    });
-    
-    // 2. Utworzenie kontekstu przeglądarki (izolowana sesja, jakby osobny profil)
+    const browser = await getGlobalBrowser();
+
     const context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     });
+
+    // OPTIMIZATION: Block unnecessary resources for faster scraping
+    await context.route('**/*.{png,jpg,jpeg,gif,webp,svg,css,woff,woff2,ico,otf,ttf}', route => route.abort());
 
     // Scrape all sources in parallel using separate pages
     const [biletynaPage, ebiletPage, kupbilecikPage] = await Promise.all([
@@ -31,7 +26,7 @@ export async function scrapeAllEvents(): Promise<ScrapeResult[]> {
       context.newPage(),
       context.newPage(),
     ]);
-    
+
     // 4. Uruchamiamy wszystkie scrapery równolegle (Promise.all)
     const scrapePromises = [
       scrapeSource('biletyna', biletynaPage, scrapeBiletynaEvents),
@@ -41,14 +36,14 @@ export async function scrapeAllEvents(): Promise<ScrapeResult[]> {
 
     const scrapeResults = await Promise.all(scrapePromises);
     results.push(...scrapeResults);
-  // ... obsługa błędów i zamykanie browsera
+
+    // IMPORTANT: Close context to free memory, but KEEP BROWSER OPEN
+    await context.close();
+
   } catch (error) {
     console.error('Error during scraping:', error);
-  } finally {
-    if (browser) {
-      await browser.close();
-    }
   }
+  // removed browser.close()
 
   return results;
 }
@@ -64,7 +59,7 @@ async function scrapeSource(
     return { source, events };
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    console.error(`Error scraping ${source}:`, errorMessage);
+    console.error(`Error scraping ${source}: `, errorMessage);
     return { source, events: [], error: errorMessage };
   }
 }
