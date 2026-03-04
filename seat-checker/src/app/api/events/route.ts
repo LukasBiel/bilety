@@ -43,7 +43,15 @@ let eventsCache: {
 // GET - fetch cached events or scrape new ones
 export async function GET() {
   try {
-    // Always return cached events for GET. If empty, the user must click Refresh.
+    // If memory cache is empty (server just started), perform an initial fetch automatically
+    if (eventsCache.events.length === 0) {
+      console.log('Cache is empty on GET request. Performing initial scrape...');
+      const response = await POST();
+      // POST automatically updates eventsCache, so we can just fall through or return its response
+      return response;
+    }
+
+    // Always return cached events for GET.
     return NextResponse.json({
       success: true,
       events: eventsCache.events || [],
