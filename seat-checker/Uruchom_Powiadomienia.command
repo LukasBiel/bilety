@@ -32,6 +32,9 @@ sleep 10
 echo "🚀 Serwer działa. Uruchamiam bota powiadomień Discord..."
 echo "Aby wyłączyć wszystko, zamknij to okno terminala."
 
+# Automatyczne otwarcie przeglądarki z aplikacją
+open "http://localhost:3000"
+
 # Uruchomienie skryptu Crona włączonego bezpośrednio w tym, głównym oknie
 node scripts/cron-worker.js
 
