@@ -21,6 +21,14 @@ git pull
 echo "📦 Instalacja ewentualnych nowych bibliotek..."
 npm install
 
+echo "🧹 Sprawdzanie i czyszczenie portu 3000..."
+OLD_PID=$(lsof -ti:3000)
+if [ ! -z "$OLD_PID" ]; then
+    echo "⚠️ Znaleziono działający w tle poprzedni serwer (PID: $OLD_PID). Zamykam go..."
+    kill -9 $OLD_PID
+    sleep 2
+fi
+
 echo "🌐 Uruchamianie lokalnego serwera w tle..."
 # Uruchamianie serwera w tle z logowaniem do pliku
 npm run dev > server_log.txt 2>&1 &
