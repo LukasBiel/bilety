@@ -296,6 +296,28 @@ function calculateSectorVisualizationWithBase(
     }
   }
 
+  // Wstrzyknij miejsca chronione w inferredSold, jako że mogły całkowicie zniknąć z danych API
+  if (inferredSold) {
+    for (const uniqueKey of Object.keys(inferredSold)) {
+      // uniqueKey is formatted as "SectorName:Row-Seat"
+      const [infSectorName, seatKey] = uniqueKey.split(':');
+      if (infSectorName === kbSector.sectorName && seatKey) {
+        const parts = seatKey.split('-');
+        const row = parts[0];
+        const seatName = parts.slice(1).join('-');
+
+        if (!seatsPerRow.has(row)) {
+          seatsPerRow.set(row, []);
+        }
+
+        const rowObj = seatsPerRow.get(row)!;
+        if (!rowObj.includes(seatName)) {
+          rowObj.push(seatName);
+        }
+      }
+    }
+  }
+
   // Sort seats in each row numerically
   for (const [row, seats] of seatsPerRow) {
     seats.sort((a, b) => {
@@ -628,6 +650,30 @@ function calculateSeatVisualization(
     if (bestPortal) {
       const seats = Array.from(portalSeats.get(bestPortal)!).sort((a, b) => a - b);
       seatsPerRow.set(row, seats);
+    }
+  }
+
+  // Wstrzyknij miejsca z inferredSold, jeśli zniknęły całkowicie z API
+  if (inferredSold) {
+    for (const uniqueKey of Object.keys(inferredSold)) {
+      // Dla defaultSectorName nie ma prefixu w kluczach w starej metodzie, 
+      // dla bezpieczeństwa sprawdźmy, czy pasuje do obecnego formatu:
+      const seatKeyParts = uniqueKey.includes(':') ? uniqueKey.split(':')[1] : uniqueKey;
+      if (!seatKeyParts) continue;
+
+      const parts = seatKeyParts.split('-');
+      const row = parts[0];
+      const seatNum = parseInt(parts[1]) || 0;
+
+      if (!seatsPerRow.has(row)) {
+        seatsPerRow.set(row, []);
+      }
+
+      const rowSeats = seatsPerRow.get(row)!;
+      if (!rowSeats.includes(seatNum)) {
+        rowSeats.push(seatNum);
+        rowSeats.sort((a, b) => a - b);
+      }
     }
   }
 
@@ -1144,7 +1190,7 @@ export default function Home() {
             return {
               ...e,
               hasCache: true,
-              cacheTimestamp: forceRefresh ? Date.now() : e.cacheTimestamp
+              cacheTimestamp: statsData.stats.lastFetched ? new Date(statsData.stats.lastFetched).getTime() : Date.now()
             };
           }
           return e;

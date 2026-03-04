@@ -7,6 +7,7 @@ import { loadStatsHistory, saveStatsHistory, type StatsHistoryEntry } from '@/li
 import { touchCachedUrl } from '@/lib/urlCache';
 import { saveFullStats } from '@/lib/fullStatsCache';
 import { sendDiscordSaleNotification } from '@/lib/discord';
+import { appendToSoldHistory, loadSoldHistory } from '@/lib/soldHistory';
 
 import {
     parseBiletynaSeats,
@@ -989,6 +990,11 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
 
     await saveStatsHistory(event.globalEventId, currentStatsEntry);
 
+    // UWAGA: inferredSold to tylko ułamek "nowo sprzedanych" w tym konkretnym odświeżeniu, 
+    // który poszedł do bota Discord i do wyciągnięcia licznika +X. 
+    // Aby na mapie wszystkie miejsca historycznie kupione zawsze były na szaro, łączymy to z historią:
+    const cumulativeSoldMap = await appendToSoldHistory(event.globalEventId, inferredSold);
+
     const combinedStats: CombinedEventStats = {
         globalEventId: event.globalEventId,
         title: event.title,
@@ -999,7 +1005,7 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
             free: totalFree,
             taken: totalTaken,
         },
-        inferredSold,
+        inferredSold: cumulativeSoldMap, // Frontend mapuje kolory po tym polu, przekazujemy całość historii
         diff: diffObj
     };
 
