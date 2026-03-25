@@ -191,6 +191,7 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
 
                         for (const sectorUrl of sectorUrls) {
                             try {
+                                await page.waitForTimeout(1500);
                                 await page.goto(sectorUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
                                 // Wait dynamically for seat map
