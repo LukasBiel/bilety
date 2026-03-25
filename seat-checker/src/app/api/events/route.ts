@@ -3,6 +3,7 @@ import { scrapeAllEvents } from '@/lib/scrapers';
 import { joinEvents } from '@/lib/eventJoin';
 import type { JoinedEvent } from '@/lib/types';
 import { hasCachedData, getCacheTimestamp } from '@/lib/urlCache';
+import { saveEventsToFile } from '@/lib/eventsFileCache';
 import fs from 'fs';
 import path from 'path';
 
@@ -97,6 +98,7 @@ export async function POST() {
       };
     });
     saveSeenEvents(seenEvents);
+    saveEventsToFile(joinedEvents);
 
     // Update cache
     eventsCache = {

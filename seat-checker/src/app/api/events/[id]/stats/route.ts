@@ -34,13 +34,18 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
 
   try {
     const body = await request.json();
-    const event: JoinedEvent = body.event;
+    let event: JoinedEvent = body.event;
     // Check if client explicitly requested a refresh (e.g. clicked "Odśwież")
     const forceRefresh = body.forceRefresh || false;
     const background = body.background || false;
 
     if (!event) {
-      return NextResponse.json({ error: 'Event data is required' }, { status: 400 });
+      const { loadEventFromFile } = await import('@/lib/eventsFileCache');
+      const fileEvent = loadEventFromFile(id);
+      if (!fileEvent) {
+        return NextResponse.json({ error: 'Event data is required and not found in cache' }, { status: 400 });
+      }
+      event = fileEvent;
     }
 
     // Safety check: if we have cache and NOT forced, return it
