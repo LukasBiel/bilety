@@ -21,5 +21,5 @@ export async function acquireScrapeSlot(): Promise<void> {
 export function releaseScrapeSlot(): void {
   active--;
   const next = queue.shift();
-  if (next) next();
+  if (next) setTimeout(next, 3000); // 3s cooldown between scrapes
 }
