@@ -28,6 +28,7 @@ import {
 } from '@/lib/seat-scrapers/kupbilecik-seats';
 
 import { normalizeSeatKey, matchSectorByStructure } from '@/lib/seat-scrapers/utils';
+import { acquireScrapeSlot, releaseScrapeSlot } from '@/lib/scrapeQueue';
 
 interface BiletynaRawData {
     sectorResults: Array<{ sectorUrl: string; data: BiletynaSectorResult }>;
@@ -47,6 +48,7 @@ interface KupbilecikRawData {
 }
 
 export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<CombinedEventStats> {
+    await acquireScrapeSlot();
     const results: Partial<Record<SourceType, SourceStats>> = {};
     const browser = await getGlobalBrowser();
 
@@ -862,6 +864,7 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
 
     } finally {
         if (context) await context.close();
+        releaseScrapeSlot();
     }
 
 
