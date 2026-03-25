@@ -1,0 +1,1091 @@
+[
+  {
+    "globalEventId": "20260409-1900-chorzow-edyigw",
+    "title": "TRE VOCI – Akustycznie: Wieczór blisko serca. Bliżej głosu.",
+    "date": "2026-04-09",
+    "time": "19:00",
+    "city": "chorzow",
+    "cityOriginal": "Chorzów",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/545773",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Chorzowskie Centrum Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/klasyka/koncert/tre-voci-the-tenors",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Chorzowskie Centrum Kultury"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/167907/Chorz%C3%B3w/Tre+Voci/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Chorzowskie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1774468433474,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260411-1900-nysa-b0k194",
+    "title": "Anita Lipnicka - O miłości 2",
+    "date": "2026-04-11",
+    "time": "19:00",
+    "city": "nysa",
+    "cityOriginal": "Nysa",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/615051",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Nyski Dom Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/anita-lipnicka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Nyski Dom Kultury im. Wandy Pawlik"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/179596/Nysa/Anita+Lipnicka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Nyski Dom Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190631223,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260411-1900-łancut-3fieo4",
+    "title": "Universe - Tacy byliśmy jeszcze wczoraj...",
+    "date": "2026-04-11",
+    "time": "19:00",
+    "city": "łancut",
+    "cityOriginal": "Łańcut",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/630680",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Widowiskowa, Miejski Dom Kultury w Łańcucie"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/rock/universe",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Miejski Dom Kultury w Łańcucie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/192990/%C5%81a%C5%84cut/Universe/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Miejski Dom Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190970379,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260412-1700-czerwionka-b0k194",
+    "title": "Anita Lipnicka - O miłości 2",
+    "date": "2026-04-12",
+    "time": "17:00",
+    "city": "czerwionka-leszczyny",
+    "cityOriginal": "Czerwionka-Leszczyny",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/anita-lipnicka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "CKE Czerwionka-Leszczyny"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/179597/Czerwionka-Leszczyny/Anita+Lipnicka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Centrum Kulturalno-Edukacyjne w Czerwionce-Leszczynach"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190956740,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260412-1800-chełm-1uo5su",
+    "title": "Krzysztof Cugowski - Wiek to tylko liczba",
+    "date": "2026-04-12",
+    "time": "18:00",
+    "city": "chełm",
+    "cityOriginal": "Chełm",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/613281",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Chełmski Dom Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/klasyka/koncert/krzysztof-cugowski-wiek-to-tylko-liczba",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Chełmski Dom Kultury"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/185907/Che%C5%82m/Krzysztof+Cugowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Chełmski Dom Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190930489,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260416-1900-pruszkow-dhe7do",
+    "title": "Kasia Kowalska Akustycznie",
+    "date": "2026-04-16",
+    "time": "19:00",
+    "city": "pruszkow",
+    "cityOriginal": "Pruszków",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/kasia-kowalska-koncert",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Centrum Kultury i Sportu w Pruszkowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/185580/Pruszk%C3%B3w/Kasia+Kowalska/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Centrum Kultury i Sportu w Pruszkowie - Sala Widowiskowa"
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260417-1900-krakow-dhe7do",
+    "title": "Kasia Kowalska Akustycznie",
+    "date": "2026-04-17",
+    "time": "19:00",
+    "city": "krakow",
+    "cityOriginal": "Kraków",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/kasia-kowalska-koncert",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Nowohuckie Centrum Kultury w Krakowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/184439/Krak%C3%B3w/Kasia+Kowalska/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Nowohuckie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772625474580,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260418-1800-swiebodzin-b0k194",
+    "title": "Anita Lipnicka - O miłości 2",
+    "date": "2026-04-18",
+    "time": "18:00",
+    "city": "swiebodzin",
+    "cityOriginal": "Świebodzin",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/616214",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Świebodziński Dom Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/anita-lipnicka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Świebodziński Dom Kultury"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/186734/%C5%9Awiebodzin/Anita+Lipnicka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Świebodziński Dom Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190828316,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260418-1900-rybnik-dhe7do",
+    "title": "Kasia Kowalska Akustycznie",
+    "date": "2026-04-18",
+    "time": "19:00",
+    "city": "rybnik",
+    "cityOriginal": "Rybnik",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/kasia-kowalska-koncert",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Ziemi Rybnickiej"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/183837/Rybnik/Kasia+Kowalska/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Ziemi Rybnickiej"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772628092888,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260421-1900-inowrocław-ly634y",
+    "title": "Andrzej Sikorowski w duecie z Jackiem Królikiem",
+    "date": "2026-04-21",
+    "time": "19:00",
+    "city": "inowrocław",
+    "cityOriginal": "Inowrocław",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/587257",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Kujawskie Centrum Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/andrzej-sikorowski-w-duecie-z-jackiem-krolikiem",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Kujawskie Centrum Kultury"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/176893/Inowroc%C5%82aw/Andrzej+Sikorowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Kujawskie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772628128257,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260422-1900-szczecin-ly634y",
+    "title": "Andrzej Sikorowski w duecie z Jackiem Królikiem",
+    "date": "2026-04-22",
+    "time": "19:00",
+    "city": "szczecin",
+    "cityOriginal": "Szczecin",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/587024",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Filharmonia w Szczecinie - sala symfoniczna"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/andrzej-sikorowski-w-duecie-z-jackiem-krolikiem",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Filharmonia im. Mieczysława Karłowicza w Szczecinie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/176767/Szczecin/Andrzej+Sikorowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Filharmonia im. Mieczysława Karłowicza"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772628143785,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260423-1900-koszalin-ly634y",
+    "title": "Andrzej Sikorowski w duecie z Jackiem Królikiem",
+    "date": "2026-04-23",
+    "time": "19:00",
+    "city": "koszalin",
+    "cityOriginal": "Koszalin",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/587262",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Filharmonia Koszalińska im. S.Moniuszki"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/andrzej-sikorowski-w-duecie-z-jackiem-krolikiem",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Filharmonia Koszalińska im. Stanisława Moniuszki"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1769638399055,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260423-1900-dabrowago-b0k194",
+    "title": "Anita Lipnicka - O miłości 2",
+    "date": "2026-04-23",
+    "time": "19:00",
+    "city": "dabrowa gornicza",
+    "cityOriginal": "Dąbrowa Górnicza",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/614123",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Pałac Kultury Zagłębia"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/anita-lipnicka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Pałac Kultury Zagłębia"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/179599/D%C4%85browa+G%C3%B3rnicza/Anita+Lipnicka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Pałac Kultury Zagłębia"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190789396,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260424-1900-gdynia-ly634y",
+    "title": "Andrzej Sikorowski w duecie z Jackiem Królikiem",
+    "date": "2026-04-24",
+    "time": "19:00",
+    "city": "gdynia",
+    "cityOriginal": "Gdynia",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/587025",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Koncertowa Zarządu Morskiego Portu Gdynia S.A."
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/andrzej-sikorowski-w-duecie-z-jackiem-krolikiem",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Sala Koncertowa Zarządu Morskiego Portu Gdynia S.A."
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/176769/Gdynia/Andrzej+Sikorowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Sala Koncertowa Portu Gdynia"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772294861132,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260424-1900-dabrowago-u9b3rb",
+    "title": "Jacek Cygan w koncercie \"Odnawiam Dusze\". Gościnnie: G.Skawiński, J. Wójcicki i inni",
+    "date": "2026-04-24",
+    "time": "19:00",
+    "city": "dabrowa gornicza",
+    "cityOriginal": "Dąbrowa Górnicza",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/606153",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Pałac Kultury Zagłębia"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/jacek-cygan",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Pałac Kultury Zagłębia"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/183886/D%C4%85browa+G%C3%B3rnicza/Jacek+Cygan/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Pałac Kultury Zagłębia"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772294889248,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260424-1900-cieszyn-b0k194",
+    "title": "Anita Lipnicka - O miłości 2",
+    "date": "2026-04-24",
+    "time": "19:00",
+    "city": "cieszyn",
+    "cityOriginal": "Cieszyn",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/615808",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Teatr im. A. Mickiewicza"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/anita-lipnicka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr im. A. Mickiewicza w Cieszynie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/179601/Cieszyn/Anita+Lipnicka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr im. Adama Mickiewicza"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772624126086,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260424-2030-warszawa-gz2rq2",
+    "title": "Zobaczyć Piosenkę- PRAPREMIERA",
+    "date": "2026-04-24",
+    "time": "20:30",
+    "city": "warszawa",
+    "cityOriginal": "Warszawa",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/620714",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\" sala teatralno-koncertowa \"Szekspir\""
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/teatr/spektakle-muzyczne/zobaczyc-piosenke",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\""
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772295075133,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260425-1700-wrocław-oj4058",
+    "title": "Pocztówki z Europy",
+    "date": "2026-04-25",
+    "time": "17:00",
+    "city": "wrocław",
+    "cityOriginal": "Wrocław",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/625993",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/teatr/komedia/pocztowki-z-europy",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/191799/Wroc%C5%82aw/Poczt%C3%B3wki+z+Europy/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772295107287,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260425-1900-warszawa-5oge3u",
+    "title": "Anita Lipnicka - O miłości 2 - Finał trasy",
+    "date": "2026-04-25",
+    "time": "19:00",
+    "city": "warszawa",
+    "cityOriginal": "Warszawa",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/teatr/spektakle-muzyczne/zobaczyc-piosenke",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\""
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/187101/Warszawa/Anita+Lipnicka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Komedia"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772295156311,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260426-1600-warszawa-sqsks4",
+    "title": "Spektakl Zobaczyć Piosenkę",
+    "date": "2026-04-26",
+    "time": "16:00",
+    "city": "warszawa",
+    "cityOriginal": "Warszawa",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/645307",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\" sala teatralno-koncertowa \"Szekspir\""
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/teatr/spektakle-muzyczne/zobaczyc-piosenke",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\""
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260426-1700-zywiec-x61gl1",
+    "title": "Cohen w teatrze",
+    "date": "2026-04-26",
+    "time": "17:00",
+    "city": "zywiec",
+    "cityOriginal": "Żywiec",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/626697",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Miejskie Centrum Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/cohen-w-teatrze",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Miejskie Centrum Kultury w Żywcu"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/191916/%C5%BBywiec/Cohen+w+teatrze/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Miejskie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772295282002,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260426-1900-warszawa-sqsks4",
+    "title": "Spektakl Zobaczyć Piosenkę",
+    "date": "2026-04-26",
+    "time": "19:00",
+    "city": "warszawa",
+    "cityOriginal": "Warszawa",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/645309",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\" sala teatralno-koncertowa \"Szekspir\""
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/teatr/spektakle-muzyczne/zobaczyc-piosenke",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Ursynowskie Centrum Kultury \"Alternatywy\""
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260427-1900-wrocław-3fieo4",
+    "title": "Universe - Tacy byliśmy jeszcze wczoraj...",
+    "date": "2026-04-27",
+    "time": "19:00",
+    "city": "wrocław",
+    "cityOriginal": "Wrocław",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/631219",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/rock/universe",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/193386/Wroc%C5%82aw/Universe/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260506-1900-warszawa-13wx4p",
+    "title": "Eleni",
+    "date": "2026-05-06",
+    "time": "19:00",
+    "city": "warszawa",
+    "cityOriginal": "Warszawa",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/645914",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Terminal Kultury Gocław"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/eleni",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Terminal Kultury Gocław"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/199063/Warszawa/Eleni/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Terminal Kultury Gocław"
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260511-1900-gdynia-e3m0as",
+    "title": "Kasia Kowalska akustycznie",
+    "date": "2026-05-11",
+    "time": "19:00",
+    "city": "gdynia",
+    "cityOriginal": "Gdynia",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/616929",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Teatr Muzyczny im. Danuty Baduszkowej"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/kasia-kowalska-koncert",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Muzyczny w Gdyni"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/181895/Gdynia/Kasia+Kowalska/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Muzyczny - Duża Scena"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772624499961,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260516-1900-zywiec-13wx4p",
+    "title": "Eleni",
+    "date": "2026-05-16",
+    "time": "19:00",
+    "city": "zywiec",
+    "cityOriginal": "Żywiec",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/609155",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Miejskie Centrum Kultury"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/eleni",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Miejskie Centrum Kultury w Żywcu"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/184531/%C5%BBywiec/Eleni/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Miejskie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772231590921,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260517-1700-sosnowiec-13wx4p",
+    "title": "Eleni",
+    "date": "2026-05-17",
+    "time": "17:00",
+    "city": "sosnowiec",
+    "cityOriginal": "Sosnowiec",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/609314",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Zespół Szkół Muzycznych w Sosnowcu"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/eleni",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Zespół Szkół Muzycznych w Sosnowcu"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/184674/Sosnowiec/Eleni/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Sala Koncertowa Zespołu Szkół Muzycznych"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772231438296,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260517-1700-łancut-x61gl1",
+    "title": "Cohen w teatrze",
+    "date": "2026-05-17",
+    "time": "17:00",
+    "city": "łancut",
+    "cityOriginal": "Łańcut",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/634013",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Widowiskowa, Miejski Dom Kultury w Łańcucie"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/cohen-w-teatrze",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Miejski Dom Kultury w Łańcucie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/194230/%C5%81a%C5%84cut/Cohen+w+teatrze/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Miejski Dom Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772232204927,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260518-1900-warszawa-x61gl1",
+    "title": "Cohen w teatrze",
+    "date": "2026-05-18",
+    "time": "19:00",
+    "city": "warszawa",
+    "cityOriginal": "Warszawa",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/645915",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Scena Relax"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/cohen-w-teatrze",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Scena Relax"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/199060/Warszawa/Cohen+w+teatrze/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Scena Relax"
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260521-1900-konin-1uo5su",
+    "title": "Krzysztof Cugowski - Wiek to tylko liczba",
+    "date": "2026-05-21",
+    "time": "19:00",
+    "city": "konin",
+    "cityOriginal": "Konin",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/638731",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Aula w Centrum Wykładowo-Dydaktycznym"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/klasyka/koncert/krzysztof-cugowski-wiek-to-tylko-liczba",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Centrum Wykładowo-Dydaktyczne w Koninie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/196394/Konin/Krzysztof+Cugowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Aula PWSZ"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772303510762,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260522-1900-pruszkow-13wx4p",
+    "title": "Eleni",
+    "date": "2026-05-22",
+    "time": "19:00",
+    "city": "pruszkow",
+    "cityOriginal": "Pruszków",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/609398",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Centrum Kultury i Sportu w Pruszkowie - Sala Widowiskowa"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/eleni",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Centrum Kultury i Sportu w Pruszkowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/184688/Pruszk%C3%B3w/Eleni/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Centrum Kultury i Sportu w Pruszkowie - Sala Widowiskowa"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772624271442,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260522-1900-rybnik-j0o4lw",
+    "title": "To śpiewa Kraków - Jacek Wójcicki z Gościem Specjalnym",
+    "date": "2026-05-22",
+    "time": "19:00",
+    "city": "rybnik",
+    "cityOriginal": "Rybnik",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/jacek-wojcicki",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Ziemi Rybnickiej"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/196595/Rybnik/To+%C5%9Bpiewa+Krak%C3%B3w+-+Jacek+W%C3%B3jcicki+z+Go%C5%9Bciem+Specjalnym/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Ziemi Rybnickiej"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304144958,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260522-2000-krakow-548p6m",
+    "title": "Krzysztof Cugowski - wiek to tylko liczba",
+    "date": "2026-05-22",
+    "time": "20:00",
+    "city": "krakow",
+    "cityOriginal": "Kraków",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/klasyka/koncert/krzysztof-cugowski-wiek-to-tylko-liczba",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Nowohuckie Centrum Kultury w Krakowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/181857/Krak%C3%B3w/Krzysztof+Cugowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Nowohuckie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304170790,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260524-1700-krakow-ly634y",
+    "title": "Andrzej Sikorowski w duecie z Jackiem Królikiem",
+    "date": "2026-05-24",
+    "time": "17:00",
+    "city": "krakow",
+    "cityOriginal": "Kraków",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/andrzej-sikorowski-w-duecie-z-jackiem-krolikiem",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Nowohuckie Centrum Kultury w Krakowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/185010/Krak%C3%B3w/Andrzej+Sikorowski/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Nowohuckie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304193588,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260607-1500-rybnik-g80lhu",
+    "title": "Królowa Śniegu - Kielecki Teatr Tańca",
+    "date": "2026-06-07",
+    "time": "15:00",
+    "city": "rybnik",
+    "cityOriginal": "Rybnik",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/rodzina/spektakle-dla-dzieci/krolowa-sniegu-kielecki-teatr-tanca",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Ziemi Rybnickiej"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/198451/Rybnik/Kr%C3%B3lowa+%C5%9Aniegu/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Ziemi Rybnickiej"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190742641,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260616-1800-wrocław-1sswo0",
+    "title": "Krzysztof Daukszewicz - Hrabia wrócił",
+    "date": "2026-06-16",
+    "time": "18:00",
+    "city": "wrocław",
+    "cityOriginal": "Wrocław",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/636301",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/widowiska/kabarety/krzysztof-daukszewicz",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/195284/Wroc%C5%82aw/Krzysztof+Daukszewicz/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1773190764875,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20260918-1900-rybnik-mzfxs1",
+    "title": "Michał Wiśniewski Akustycznie",
+    "date": "2026-09-18",
+    "time": "19:00",
+    "city": "rybnik",
+    "cityOriginal": "Rybnik",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/pop/michal-wisniewski-akustycznie",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Ziemi Rybnickiej"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/197504/Rybnik/Micha%C5%82+Wi%C5%9Bniewski+Akustycznie/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Ziemi Rybnickiej"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304255502,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20261009-1900-krakow-g4xiwc",
+    "title": "Krakowskie Klimaty - Jacek Wójcicki i Beata Rybotycka",
+    "date": "2026-10-09",
+    "time": "19:00",
+    "city": "krakow",
+    "cityOriginal": "Kraków",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/wojcicki-rybotycka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Nowohuckie Centrum Kultury w Krakowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/196053/Krak%C3%B3w/Krakowskie+Klimaty+-+Jacek+W%C3%B3jcicki+i+Beata+Rybotycka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Nowohuckie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772624317910,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20261013-1900-tychy-g4xiwc",
+    "title": "Krakowskie Klimaty - Jacek Wójcicki i Beata Rybotycka",
+    "date": "2026-10-13",
+    "time": "19:00",
+    "city": "tychy",
+    "cityOriginal": "Tychy",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/637777",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Teatr Mały w Tychach"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/wojcicki-rybotycka",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Mały  w Tychach"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/196054/Tychy/Krakowskie+Klimaty+-+Jacek+W%C3%B3jcicki+i+Beata+Rybotycka/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Mały"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304289111,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20261017-1900-wrocław-13wx4p",
+    "title": "Eleni",
+    "date": "2026-10-17",
+    "time": "19:00",
+    "city": "wrocław",
+    "cityOriginal": "Wrocław",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/653869",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/eleni",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/200695/Wroc%C5%82aw/Eleni/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Sala Koncertowa Radia Wrocław"
+      }
+    },
+    "hasCache": false,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20261018-1700-tychy-qff14y",
+    "title": "IRA Akustycznie",
+    "date": "2026-10-18",
+    "time": "17:00",
+    "city": "tychy",
+    "cityOriginal": "Tychy",
+    "sources": {
+      "biletyna": {
+        "eventCardUrl": "https://biletyna.pl/event/view/id/614167",
+        "buyButtonSelector": ".B-btn--primary, .ticket-buy, a[href*=\"/event/view/\"]",
+        "venue": "Teatr Mały w Tychach"
+      },
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/rock/ira",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Teatr Mały  w Tychach"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/186125/Tychy/IRA/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Teatr Mały"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304345722,
+    "isNew": false
+  },
+  {
+    "globalEventId": "20261115-1700-krakow-x61gl1",
+    "title": "Cohen w teatrze",
+    "date": "2026-11-15",
+    "time": "17:00",
+    "city": "krakow",
+    "cityOriginal": "Kraków",
+    "sources": {
+      "ebilet": {
+        "eventCardUrl": "https://www.ebilet.pl/muzyka/piosenka/cohen-w-teatrze",
+        "buyButtonSelector": "eb-button, .eb-btn, button[class*=\"btn\"], a[href*=\"/bilety/\"]",
+        "venue": "Nowohuckie Centrum Kultury w Krakowie"
+      },
+      "kupbilecik": {
+        "eventCardUrl": "https://www.kupbilecik.pl/imprezy/193975/Krak%C3%B3w/Cohen+w+teatrze/",
+        "buyButtonSelector": ".buy-button, .btn-buy, a[href*=\"imprezy\"], button:has-text(\"Kup\")",
+        "venue": "Nowohuckie Centrum Kultury"
+      }
+    },
+    "hasCache": true,
+    "cacheTimestamp": 1772304317633,
+    "isNew": false
+  }
+]

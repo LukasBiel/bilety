@@ -922,8 +922,8 @@
       "source": "kupbilecik",
       "totals": {
         "total": 467,
-        "free": 77,
-        "taken": 390
+        "free": 75,
+        "taken": 392
       },
       "rows": {
         "I": {
@@ -943,8 +943,8 @@
         },
         "IV": {
           "total": 27,
-          "free": 11,
-          "taken": 16
+          "free": 9,
+          "taken": 18
         },
         "V": {
           "total": 27,
@@ -1040,8 +1040,6 @@
         "III-27",
         "IV-1",
         "IV-2",
-        "IV-5",
-        "IV-6",
         "IV-15",
         "IV-22",
         "IV-23",
@@ -1140,6 +1138,8 @@
         "III-21",
         "IV-3",
         "IV-4",
+        "IV-5",
+        "IV-6",
         "IV-7",
         "IV-8",
         "IV-9",
@@ -1499,8 +1499,8 @@
             },
             "IV": {
               "total": 27,
-              "free": 11,
-              "taken": 16
+              "free": 9,
+              "taken": 18
             },
             "V": {
               "total": 27,
@@ -1586,8 +1586,6 @@
             "III-27",
             "IV-1",
             "IV-2",
-            "IV-5",
-            "IV-6",
             "IV-15",
             "IV-22",
             "IV-23",
@@ -1686,6 +1684,8 @@
             "III-21",
             "IV-3",
             "IV-4",
+            "IV-5",
+            "IV-6",
             "IV-7",
             "IV-8",
             "IV-9",
@@ -1931,8 +1931,8 @@
           ],
           "totals": {
             "total": 372,
-            "free": 77,
-            "taken": 295
+            "free": 75,
+            "taken": 297
           }
         },
         {
@@ -3336,15 +3336,15 @@
   },
   "combinedTotals": {
     "total": 1347,
-    "free": 288,
-    "taken": 1059
+    "free": 286,
+    "taken": 1061
   },
   "inferredSold": {},
   "diff": {
     "biletynaSold": 0,
     "ebiletSold": 0,
     "kupbilecikSold": 0,
-    "lastUpdated": "2026-02-28T15:57:45.691Z"
+    "lastUpdated": "2026-03-04T11:13:53.934Z"
   },
-  "lastFetched": "2026-02-28T17:48:43.490Z"
+  "lastFetched": "2026-03-04T11:54:28.996Z"
 }

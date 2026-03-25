@@ -7,8 +7,8 @@
       "source": "biletyna",
       "totals": {
         "total": 325,
-        "free": 61,
-        "taken": 264
+        "free": 49,
+        "taken": 276
       },
       "rows": {
         "I": {
@@ -33,8 +33,8 @@
         },
         "V": {
           "total": 23,
-          "free": 11,
-          "taken": 12
+          "free": 5,
+          "taken": 18
         },
         "VI": {
           "total": 24,
@@ -43,8 +43,8 @@
         },
         "VII": {
           "total": 25,
-          "free": 9,
-          "taken": 16
+          "free": 5,
+          "taken": 20
         },
         "VIII": {
           "total": 26,
@@ -58,8 +58,8 @@
         },
         "X": {
           "total": 14,
-          "free": 4,
-          "taken": 10
+          "free": 2,
+          "taken": 12
         },
         "XI": {
           "total": 21,
@@ -108,25 +108,13 @@
         "V-3",
         "V-4",
         "V-5",
-        "V-6",
-        "V-7",
-        "V-8",
-        "V-9",
-        "V-10",
-        "V-11",
         "VI-20",
-        "VII-17",
-        "VII-18",
-        "VII-19",
-        "VII-20",
         "VII-21",
         "VII-22",
         "VII-23",
         "VII-24",
         "VII-25",
         "X-11",
-        "X-12",
-        "X-13",
         "X-14",
         "XIII-1",
         "XIII-2",
@@ -228,6 +216,12 @@
         "IV-22",
         "IV-23",
         "IV-24",
+        "V-6",
+        "V-7",
+        "V-8",
+        "V-9",
+        "V-10",
+        "V-11",
         "V-12",
         "V-13",
         "V-14",
@@ -279,6 +273,10 @@
         "VII-14",
         "VII-15",
         "VII-16",
+        "VII-17",
+        "VII-18",
+        "VII-19",
+        "VII-20",
         "VIII-1",
         "VIII-2",
         "VIII-3",
@@ -329,6 +327,8 @@
         "X-8",
         "X-9",
         "X-10",
+        "X-12",
+        "X-13",
         "XI-1",
         "XI-2",
         "XI-3",
@@ -418,7 +418,7 @@
       ],
       "sectors": [
         {
-          "sectorName": "Sektor 1",
+          "sectorName": "SALA",
           "rows": {
             "I": {
               "total": 23,
@@ -442,8 +442,8 @@
             },
             "V": {
               "total": 23,
-              "free": 11,
-              "taken": 12
+              "free": 5,
+              "taken": 18
             },
             "VI": {
               "total": 24,
@@ -452,8 +452,8 @@
             },
             "VII": {
               "total": 25,
-              "free": 9,
-              "taken": 16
+              "free": 5,
+              "taken": 20
             },
             "VIII": {
               "total": 26,
@@ -467,8 +467,8 @@
             },
             "X": {
               "total": 14,
-              "free": 4,
-              "taken": 10
+              "free": 2,
+              "taken": 12
             },
             "XI": {
               "total": 21,
@@ -517,25 +517,13 @@
             "V-3",
             "V-4",
             "V-5",
-            "V-6",
-            "V-7",
-            "V-8",
-            "V-9",
-            "V-10",
-            "V-11",
             "VI-20",
-            "VII-17",
-            "VII-18",
-            "VII-19",
-            "VII-20",
             "VII-21",
             "VII-22",
             "VII-23",
             "VII-24",
             "VII-25",
             "X-11",
-            "X-12",
-            "X-13",
             "X-14",
             "XIII-1",
             "XIII-2",
@@ -637,6 +625,12 @@
             "IV-22",
             "IV-23",
             "IV-24",
+            "V-6",
+            "V-7",
+            "V-8",
+            "V-9",
+            "V-10",
+            "V-11",
             "V-12",
             "V-13",
             "V-14",
@@ -688,6 +682,10 @@
             "VII-14",
             "VII-15",
             "VII-16",
+            "VII-17",
+            "VII-18",
+            "VII-19",
+            "VII-20",
             "VIII-1",
             "VIII-2",
             "VIII-3",
@@ -738,6 +736,8 @@
             "X-8",
             "X-9",
             "X-10",
+            "X-12",
+            "X-13",
             "XI-1",
             "XI-2",
             "XI-3",
@@ -827,8 +827,8 @@
           ],
           "totals": {
             "total": 325,
-            "free": 61,
-            "taken": 264
+            "free": 49,
+            "taken": 276
           }
         }
       ],
@@ -838,8 +838,8 @@
       "source": "kupbilecik",
       "totals": {
         "total": 325,
-        "free": 80,
-        "taken": 245
+        "free": 41,
+        "taken": 284
       },
       "rows": {
         "I": {
@@ -874,13 +874,13 @@
         },
         "VII": {
           "total": 25,
-          "free": 4,
-          "taken": 21
+          "free": 0,
+          "taken": 25
         },
         "VIII": {
           "total": 26,
-          "free": 22,
-          "taken": 4
+          "free": 5,
+          "taken": 21
         },
         "IX": {
           "total": 14,
@@ -894,13 +894,13 @@
         },
         "XI": {
           "total": 21,
-          "free": 14,
-          "taken": 7
+          "free": 5,
+          "taken": 16
         },
         "XII": {
           "total": 20,
-          "free": 20,
-          "taken": 0
+          "free": 11,
+          "taken": 9
         },
         "XIII": {
           "total": 21,
@@ -919,29 +919,8 @@
         }
       },
       "freeSeats": [
-        "VII-1",
-        "VII-2",
-        "VII-3",
-        "VII-4",
         "VIII-1",
         "VIII-2",
-        "VIII-3",
-        "VIII-4",
-        "VIII-5",
-        "VIII-6",
-        "VIII-7",
-        "VIII-8",
-        "VIII-9",
-        "VIII-10",
-        "VIII-11",
-        "VIII-12",
-        "VIII-17",
-        "VIII-18",
-        "VIII-19",
-        "VIII-20",
-        "VIII-21",
-        "VIII-22",
-        "VIII-23",
         "VIII-24",
         "VIII-25",
         "VIII-26",
@@ -949,16 +928,7 @@
         "XI-2",
         "XI-3",
         "XI-4",
-        "XI-5",
-        "XI-6",
-        "XI-7",
-        "XI-8",
-        "XI-9",
         "XI-15",
-        "XI-16",
-        "XI-17",
-        "XI-20",
-        "XI-21",
         "XII-1",
         "XII-2",
         "XII-3",
@@ -967,15 +937,6 @@
         "XII-6",
         "XII-7",
         "XII-8",
-        "XII-9",
-        "XII-10",
-        "XII-11",
-        "XII-12",
-        "XII-13",
-        "XII-14",
-        "XII-15",
-        "XII-16",
-        "XII-17",
         "XII-18",
         "XII-19",
         "XII-20",
@@ -1140,6 +1101,10 @@
         "VI-22",
         "VI-23",
         "VI-24",
+        "VII-1",
+        "VII-2",
+        "VII-3",
+        "VII-4",
         "VII-5",
         "VII-6",
         "VII-7",
@@ -1161,10 +1126,27 @@
         "VII-23",
         "VII-24",
         "VII-25",
+        "VIII-3",
+        "VIII-4",
+        "VIII-5",
+        "VIII-6",
+        "VIII-7",
+        "VIII-8",
+        "VIII-9",
+        "VIII-10",
+        "VIII-11",
+        "VIII-12",
         "VIII-13",
         "VIII-14",
         "VIII-15",
         "VIII-16",
+        "VIII-17",
+        "VIII-18",
+        "VIII-19",
+        "VIII-20",
+        "VIII-21",
+        "VIII-22",
+        "VIII-23",
         "IX-1",
         "IX-2",
         "IX-3",
@@ -1193,13 +1175,31 @@
         "X-12",
         "X-13",
         "X-14",
+        "XI-5",
+        "XI-6",
+        "XI-7",
+        "XI-8",
+        "XI-9",
         "XI-10",
         "XI-11",
         "XI-12",
         "XI-13",
         "XI-14",
+        "XI-16",
+        "XI-17",
         "XI-18",
         "XI-19",
+        "XI-20",
+        "XI-21",
+        "XII-9",
+        "XII-10",
+        "XII-11",
+        "XII-12",
+        "XII-13",
+        "XII-14",
+        "XII-15",
+        "XII-16",
+        "XII-17",
         "XIII-1",
         "XIII-2",
         "XIII-3",
@@ -1283,13 +1283,13 @@
             },
             "VII": {
               "total": 25,
-              "free": 4,
-              "taken": 21
+              "free": 0,
+              "taken": 25
             },
             "VIII": {
               "total": 26,
-              "free": 22,
-              "taken": 4
+              "free": 5,
+              "taken": 21
             },
             "IX": {
               "total": 14,
@@ -1303,13 +1303,13 @@
             },
             "XI": {
               "total": 21,
-              "free": 14,
-              "taken": 7
+              "free": 5,
+              "taken": 16
             },
             "XII": {
               "total": 20,
-              "free": 20,
-              "taken": 0
+              "free": 11,
+              "taken": 9
             },
             "XIII": {
               "total": 21,
@@ -1328,29 +1328,8 @@
             }
           },
           "freeSeats": [
-            "VII-1",
-            "VII-2",
-            "VII-3",
-            "VII-4",
             "VIII-1",
             "VIII-2",
-            "VIII-3",
-            "VIII-4",
-            "VIII-5",
-            "VIII-6",
-            "VIII-7",
-            "VIII-8",
-            "VIII-9",
-            "VIII-10",
-            "VIII-11",
-            "VIII-12",
-            "VIII-17",
-            "VIII-18",
-            "VIII-19",
-            "VIII-20",
-            "VIII-21",
-            "VIII-22",
-            "VIII-23",
             "VIII-24",
             "VIII-25",
             "VIII-26",
@@ -1358,16 +1337,7 @@
             "XI-2",
             "XI-3",
             "XI-4",
-            "XI-5",
-            "XI-6",
-            "XI-7",
-            "XI-8",
-            "XI-9",
             "XI-15",
-            "XI-16",
-            "XI-17",
-            "XI-20",
-            "XI-21",
             "XII-1",
             "XII-2",
             "XII-3",
@@ -1376,15 +1346,6 @@
             "XII-6",
             "XII-7",
             "XII-8",
-            "XII-9",
-            "XII-10",
-            "XII-11",
-            "XII-12",
-            "XII-13",
-            "XII-14",
-            "XII-15",
-            "XII-16",
-            "XII-17",
             "XII-18",
             "XII-19",
             "XII-20",
@@ -1549,6 +1510,10 @@
             "VI-22",
             "VI-23",
             "VI-24",
+            "VII-1",
+            "VII-2",
+            "VII-3",
+            "VII-4",
             "VII-5",
             "VII-6",
             "VII-7",
@@ -1570,10 +1535,27 @@
             "VII-23",
             "VII-24",
             "VII-25",
+            "VIII-3",
+            "VIII-4",
+            "VIII-5",
+            "VIII-6",
+            "VIII-7",
+            "VIII-8",
+            "VIII-9",
+            "VIII-10",
+            "VIII-11",
+            "VIII-12",
             "VIII-13",
             "VIII-14",
             "VIII-15",
             "VIII-16",
+            "VIII-17",
+            "VIII-18",
+            "VIII-19",
+            "VIII-20",
+            "VIII-21",
+            "VIII-22",
+            "VIII-23",
             "IX-1",
             "IX-2",
             "IX-3",
@@ -1602,13 +1584,31 @@
             "X-12",
             "X-13",
             "X-14",
+            "XI-5",
+            "XI-6",
+            "XI-7",
+            "XI-8",
+            "XI-9",
             "XI-10",
             "XI-11",
             "XI-12",
             "XI-13",
             "XI-14",
+            "XI-16",
+            "XI-17",
             "XI-18",
             "XI-19",
+            "XI-20",
+            "XI-21",
+            "XII-9",
+            "XII-10",
+            "XII-11",
+            "XII-12",
+            "XII-13",
+            "XII-14",
+            "XII-15",
+            "XII-16",
+            "XII-17",
             "XIII-1",
             "XIII-2",
             "XIII-3",
@@ -1658,8 +1658,8 @@
           ],
           "totals": {
             "total": 325,
-            "free": 80,
-            "taken": 245
+            "free": 41,
+            "taken": 284
           }
         }
       ],
@@ -1669,8 +1669,8 @@
       "source": "ebilet",
       "totals": {
         "total": 325,
-        "free": 33,
-        "taken": 292
+        "free": 32,
+        "taken": 293
       },
       "rows": {
         "XV": {
@@ -1725,8 +1725,8 @@
         },
         "V": {
           "total": 23,
-          "free": 7,
-          "taken": 16
+          "free": 6,
+          "taken": 17
         },
         "IV": {
           "total": 24,
@@ -1751,7 +1751,6 @@
       },
       "freeSeats": [
         "I-18",
-        "V-14",
         "V-15",
         "V-16",
         "V-20",
@@ -1895,6 +1894,7 @@
         "V-11",
         "V-12",
         "V-13",
+        "V-14",
         "V-17",
         "V-18",
         "V-19",
@@ -2083,15 +2083,65 @@
   },
   "combinedTotals": {
     "total": 975,
-    "free": 174,
-    "taken": 801
+    "free": 122,
+    "taken": 853
   },
-  "inferredSold": {},
+  "inferredSold": {
+    "SALA:5-6": "biletyna",
+    "SALA:5-7": "biletyna",
+    "SALA:5-8": "biletyna",
+    "SALA:5-9": "biletyna",
+    "SALA:5-10": "biletyna",
+    "SALA:5-11": "biletyna",
+    "SALA:7-17": "biletyna",
+    "SALA:7-18": "biletyna",
+    "SALA:7-19": "biletyna",
+    "SALA:7-20": "biletyna",
+    "SALA:10-12": "biletyna",
+    "SALA:10-13": "biletyna",
+    "SALA:7-1": "kupbilecik",
+    "SALA:7-2": "kupbilecik",
+    "SALA:7-3": "kupbilecik",
+    "SALA:7-4": "kupbilecik",
+    "SALA:8-3": "kupbilecik",
+    "SALA:8-4": "kupbilecik",
+    "SALA:8-5": "kupbilecik",
+    "SALA:8-6": "kupbilecik",
+    "SALA:8-7": "kupbilecik",
+    "SALA:8-8": "kupbilecik",
+    "SALA:8-9": "kupbilecik",
+    "SALA:8-10": "kupbilecik",
+    "SALA:8-11": "kupbilecik",
+    "SALA:8-12": "kupbilecik",
+    "SALA:8-17": "kupbilecik",
+    "SALA:8-18": "kupbilecik",
+    "SALA:8-19": "kupbilecik",
+    "SALA:8-20": "kupbilecik",
+    "SALA:8-21": "kupbilecik",
+    "SALA:8-22": "kupbilecik",
+    "SALA:8-23": "kupbilecik",
+    "SALA:11-5": "kupbilecik",
+    "SALA:11-6": "kupbilecik",
+    "SALA:11-7": "kupbilecik",
+    "SALA:11-8": "kupbilecik",
+    "SALA:11-9": "kupbilecik",
+    "SALA:11-16": "kupbilecik",
+    "SALA:11-17": "kupbilecik",
+    "SALA:11-20": "kupbilecik",
+    "SALA:11-21": "kupbilecik",
+    "SALA:12-9": "kupbilecik",
+    "SALA:12-10": "kupbilecik",
+    "SALA:12-13": "kupbilecik",
+    "SALA:12-14": "kupbilecik",
+    "SALA:12-15": "kupbilecik",
+    "SALA:12-16": "kupbilecik",
+    "SALA:12-17": "kupbilecik"
+  },
   "diff": {
-    "biletynaSold": 0,
+    "biletynaSold": 12,
     "ebiletSold": 0,
-    "kupbilecikSold": 0,
-    "lastUpdated": "2026-02-28T15:58:56.931Z"
+    "kupbilecikSold": 37,
+    "lastUpdated": "2026-03-04T11:22:59.248Z"
   },
-  "lastFetched": "2026-02-28T15:59:10.094Z"
+  "lastFetched": "2026-03-11T01:02:50.390Z"
 }

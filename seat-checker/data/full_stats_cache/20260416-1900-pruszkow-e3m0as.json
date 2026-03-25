@@ -7,8 +7,8 @@
       "source": "biletyna",
       "totals": {
         "total": 398,
-        "free": 13,
-        "taken": 385
+        "free": 3,
+        "taken": 395
       },
       "rows": {
         "I": {
@@ -68,8 +68,8 @@
         },
         "XII": {
           "total": 25,
-          "free": 2,
-          "taken": 23
+          "free": 0,
+          "taken": 25
         },
         "XIII": {
           "total": 25,
@@ -83,13 +83,13 @@
         },
         "XV": {
           "total": 24,
-          "free": 2,
-          "taken": 22
+          "free": 0,
+          "taken": 24
         },
         "XVI": {
           "total": 24,
-          "free": 6,
-          "taken": 18
+          "free": 0,
+          "taken": 24
         },
         "XVII": {
           "total": 27,
@@ -100,16 +100,6 @@
       "freeSeats": [
         "X-1",
         "XI-1",
-        "XII-2",
-        "XII-1",
-        "XV-3",
-        "XV-2",
-        "XVI-6",
-        "XVI-5",
-        "XVI-4",
-        "XVI-3",
-        "XVI-2",
-        "XVI-1",
         "XVII-3"
       ],
       "takenSeats": [
@@ -383,6 +373,8 @@
         "XII-5",
         "XII-4",
         "XII-3",
+        "XII-2",
+        "XII-1",
         "XIII-25",
         "XIII-24",
         "XIII-23",
@@ -453,6 +445,8 @@
         "XV-6",
         "XV-5",
         "XV-4",
+        "XV-3",
+        "XV-2",
         "XV-1",
         "XVI-24",
         "XVI-23",
@@ -472,6 +466,12 @@
         "XVI-9",
         "XVI-8",
         "XVI-7",
+        "XVI-6",
+        "XVI-5",
+        "XVI-4",
+        "XVI-3",
+        "XVI-2",
+        "XVI-1",
         "XVII-27",
         "XVII-26",
         "XVII-25",
@@ -501,7 +501,7 @@
       ],
       "sectors": [
         {
-          "sectorName": "Sektor 1",
+          "sectorName": "SALA",
           "rows": {
             "I": {
               "total": 21,
@@ -560,8 +560,8 @@
             },
             "XII": {
               "total": 25,
-              "free": 2,
-              "taken": 23
+              "free": 0,
+              "taken": 25
             },
             "XIII": {
               "total": 25,
@@ -575,13 +575,13 @@
             },
             "XV": {
               "total": 24,
-              "free": 2,
-              "taken": 22
+              "free": 0,
+              "taken": 24
             },
             "XVI": {
               "total": 24,
-              "free": 6,
-              "taken": 18
+              "free": 0,
+              "taken": 24
             },
             "XVII": {
               "total": 27,
@@ -592,16 +592,6 @@
           "freeSeats": [
             "X-1",
             "XI-1",
-            "XII-2",
-            "XII-1",
-            "XV-3",
-            "XV-2",
-            "XVI-6",
-            "XVI-5",
-            "XVI-4",
-            "XVI-3",
-            "XVI-2",
-            "XVI-1",
             "XVII-3"
           ],
           "takenSeats": [
@@ -875,6 +865,8 @@
             "XII-5",
             "XII-4",
             "XII-3",
+            "XII-2",
+            "XII-1",
             "XIII-25",
             "XIII-24",
             "XIII-23",
@@ -945,6 +937,8 @@
             "XV-6",
             "XV-5",
             "XV-4",
+            "XV-3",
+            "XV-2",
             "XV-1",
             "XVI-24",
             "XVI-23",
@@ -964,6 +958,12 @@
             "XVI-9",
             "XVI-8",
             "XVI-7",
+            "XVI-6",
+            "XVI-5",
+            "XVI-4",
+            "XVI-3",
+            "XVI-2",
+            "XVI-1",
             "XVII-27",
             "XVII-26",
             "XVII-25",
@@ -993,8 +993,8 @@
           ],
           "totals": {
             "total": 398,
-            "free": 13,
-            "taken": 385
+            "free": 3,
+            "taken": 395
           }
         }
       ],
@@ -1004,8 +1004,8 @@
       "source": "kupbilecik",
       "totals": {
         "total": 398,
-        "free": 6,
-        "taken": 392
+        "free": 2,
+        "taken": 396
       },
       "rows": {
         "I": {
@@ -1090,17 +1090,13 @@
         },
         "XVII": {
           "total": 27,
-          "free": 4,
-          "taken": 23
+          "free": 0,
+          "taken": 27
         }
       },
       "freeSeats": [
         "XVI-24",
-        "XVI-23",
-        "XVII-23",
-        "XVII-22",
-        "XVII-21",
-        "XVII-20"
+        "XVI-23"
       ],
       "takenSeats": [
         "I-21",
@@ -1476,6 +1472,10 @@
         "XVII-26",
         "XVII-25",
         "XVII-24",
+        "XVII-23",
+        "XVII-22",
+        "XVII-21",
+        "XVII-20",
         "XVII-19",
         "XVII-18",
         "XVII-17",
@@ -1582,17 +1582,13 @@
             },
             "XVII": {
               "total": 27,
-              "free": 4,
-              "taken": 23
+              "free": 0,
+              "taken": 27
             }
           },
           "freeSeats": [
             "XVI-24",
-            "XVI-23",
-            "XVII-23",
-            "XVII-22",
-            "XVII-21",
-            "XVII-20"
+            "XVI-23"
           ],
           "takenSeats": [
             "I-21",
@@ -1968,6 +1964,10 @@
             "XVII-26",
             "XVII-25",
             "XVII-24",
+            "XVII-23",
+            "XVII-22",
+            "XVII-21",
+            "XVII-20",
             "XVII-19",
             "XVII-18",
             "XVII-17",
@@ -1990,8 +1990,8 @@
           ],
           "totals": {
             "total": 398,
-            "free": 6,
-            "taken": 392
+            "free": 2,
+            "taken": 396
           }
         }
       ],
@@ -2001,8 +2001,8 @@
       "source": "ebilet",
       "totals": {
         "total": 398,
-        "free": 5,
-        "taken": 393
+        "free": 2,
+        "taken": 396
       },
       "rows": {
         "1": {
@@ -2087,15 +2087,12 @@
         },
         "17": {
           "total": 27,
-          "free": 4,
-          "taken": 23
+          "free": 1,
+          "taken": 26
         }
       },
       "freeSeats": [
         "14-9",
-        "17-24",
-        "17-25",
-        "17-26",
         "17-27"
       ],
       "takenSeats": [
@@ -2317,6 +2314,9 @@
         "17-21",
         "17-22",
         "17-23",
+        "17-24",
+        "17-25",
+        "17-26",
         "17-3",
         "17-4",
         "17-5",
@@ -2498,15 +2498,24 @@
   },
   "combinedTotals": {
     "total": 1194,
-    "free": 24,
-    "taken": 1170
+    "free": 7,
+    "taken": 1187
   },
-  "inferredSold": {},
+  "inferredSold": {
+    "SALA:16-4": "biletyna",
+    "SALA:16-3": "biletyna",
+    "SALA:16-2": "biletyna",
+    "SALA:16-1": "biletyna",
+    "SALA:17-23": "kupbilecik",
+    "SALA:17-22": "kupbilecik",
+    "SALA:17-21": "kupbilecik",
+    "SALA:17-20": "kupbilecik"
+  },
   "diff": {
-    "biletynaSold": 0,
+    "biletynaSold": 4,
     "ebiletSold": 0,
-    "kupbilecikSold": 0,
-    "lastUpdated": "2026-02-28T16:00:29.990Z"
+    "kupbilecikSold": 4,
+    "lastUpdated": "2026-03-04T11:57:27.789Z"
   },
-  "lastFetched": "2026-02-28T16:00:58.860Z"
+  "lastFetched": "2026-03-11T01:01:39.144Z"
 }

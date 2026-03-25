@@ -7,8 +7,8 @@
       "source": "kupbilecik",
       "totals": {
         "total": 590,
-        "free": 102,
-        "taken": 488
+        "free": 55,
+        "taken": 535
       },
       "rows": {
         "I": {
@@ -23,18 +23,18 @@
         },
         "III": {
           "total": 53,
-          "free": 28,
-          "taken": 25
+          "free": 26,
+          "taken": 27
         },
         "IV": {
           "total": 55,
-          "free": 1,
-          "taken": 54
+          "free": 0,
+          "taken": 55
         },
         "V": {
           "total": 25,
-          "free": 6,
-          "taken": 19
+          "free": 1,
+          "taken": 24
         },
         "VI": {
           "total": 30,
@@ -53,13 +53,13 @@
         },
         "IX": {
           "total": 34,
-          "free": 13,
-          "taken": 21
+          "free": 6,
+          "taken": 28
         },
         "X": {
           "total": 32,
-          "free": 27,
-          "taken": 5
+          "free": 7,
+          "taken": 25
         },
         "XI": {
           "total": 34,
@@ -83,8 +83,8 @@
         },
         "XV": {
           "total": 20,
-          "free": 20,
-          "taken": 0
+          "free": 11,
+          "taken": 9
         },
         "XVI": {
           "total": 27,
@@ -98,81 +98,36 @@
         },
         "XVIII": {
           "total": 12,
-          "free": 7,
-          "taken": 5
+          "free": 4,
+          "taken": 8
         }
       },
       "freeSeats": [
-        "IV-56",
-        "V-79",
-        "V-80",
-        "V-81",
-        "V-82",
-        "V-83",
-        "V-84",
+        "V-103",
         "IX-1",
         "IX-2",
         "IX-3",
-        "IX-4",
-        "IX-5",
-        "IX-6",
-        "IX-7",
-        "IX-8",
-        "IX-9",
-        "IX-10",
-        "IX-11",
-        "IX-12",
-        "IX-13",
+        "IX-30",
+        "IX-31",
+        "IX-32",
         "X-1",
         "X-2",
         "X-3",
         "X-4",
-        "X-5",
-        "X-6",
-        "X-7",
-        "X-8",
-        "X-9",
-        "X-10",
-        "X-11",
-        "X-12",
-        "X-13",
-        "X-14",
-        "X-20",
-        "X-21",
-        "X-22",
-        "X-23",
-        "X-24",
-        "X-25",
-        "X-26",
-        "X-27",
-        "X-28",
-        "X-29",
         "X-30",
         "X-31",
         "X-32",
         "XV-1",
         "XV-2",
         "XV-3",
-        "XV-4",
-        "XV-5",
-        "XV-6",
-        "XV-7",
-        "XV-8",
-        "XV-9",
-        "XV-10",
         "XV-11",
         "XV-12",
-        "XV-13",
-        "XV-14",
         "XV-15",
         "XV-16",
         "XV-17",
         "XV-18",
         "XV-19",
         "XV-20",
-        "XVIII-6",
-        "XVIII-7",
-        "XVIII-8",
         "XVIII-9",
         "XVIII-10",
         "XVIII-11",
@@ -195,8 +150,6 @@
         "III-78",
         "III-79",
         "III-80",
-        "III-81",
-        "III-82",
         "III-83",
         "III-84",
         "III-85",
@@ -262,6 +215,7 @@
         "III-53",
         "III-54",
         "III-55",
+        "IV-56",
         "IV-57",
         "IV-58",
         "IV-59",
@@ -284,6 +238,12 @@
         "IV-76",
         "IV-77",
         "IV-78",
+        "V-79",
+        "V-80",
+        "V-81",
+        "V-82",
+        "V-83",
+        "V-84",
         "V-85",
         "V-86",
         "V-87",
@@ -302,7 +262,6 @@
         "V-100",
         "V-101",
         "V-102",
-        "V-103",
         "VI-1",
         "VI-2",
         "VI-3",
@@ -395,6 +354,16 @@
         "VIII-30",
         "VIII-31",
         "VIII-32",
+        "IX-4",
+        "IX-5",
+        "IX-6",
+        "IX-7",
+        "IX-8",
+        "IX-9",
+        "IX-10",
+        "IX-11",
+        "IX-12",
+        "IX-13",
         "IX-14",
         "IX-15",
         "IX-16",
@@ -411,16 +380,33 @@
         "IX-27",
         "IX-28",
         "IX-29",
-        "IX-30",
-        "IX-31",
-        "IX-32",
         "IX-33",
         "IX-34",
+        "X-5",
+        "X-6",
+        "X-7",
+        "X-8",
+        "X-9",
+        "X-10",
+        "X-11",
+        "X-12",
+        "X-13",
+        "X-14",
         "X-15",
         "X-16",
         "X-17",
         "X-18",
         "X-19",
+        "X-20",
+        "X-21",
+        "X-22",
+        "X-23",
+        "X-24",
+        "X-25",
+        "X-26",
+        "X-27",
+        "X-28",
+        "X-29",
         "XI-1",
         "XI-2",
         "XI-3",
@@ -553,6 +539,15 @@
         "XIV-30",
         "XIV-31",
         "XIV-32",
+        "XV-4",
+        "XV-5",
+        "XV-6",
+        "XV-7",
+        "XV-8",
+        "XV-9",
+        "XV-10",
+        "XV-13",
+        "XV-14",
         "XVI-1",
         "XVI-2",
         "XVI-3",
@@ -597,6 +592,9 @@
         "XVIII-N1",
         "XVIII-N2",
         "XVIII-O2",
+        "XVIII-6",
+        "XVIII-7",
+        "XVIII-8",
         "XVIII-O3",
         "XVIII-N3",
         "I-1",
@@ -661,6 +659,8 @@
         "II-60",
         "III-72",
         "III-73",
+        "III-81",
+        "III-82",
         "III-87",
         "III-88",
         "IV-93",
@@ -717,23 +717,17 @@
             },
             "IV": {
               "total": 23,
-              "free": 1,
-              "taken": 22
+              "free": 0,
+              "taken": 23
             },
             "V": {
               "total": 25,
-              "free": 6,
-              "taken": 19
+              "free": 1,
+              "taken": 24
             }
           },
           "freeSeats": [
-            "IV-56",
-            "V-79",
-            "V-80",
-            "V-81",
-            "V-82",
-            "V-83",
-            "V-84"
+            "V-103"
           ],
           "takenSeats": [
             "I-1",
@@ -791,6 +785,7 @@
             "III-53",
             "III-54",
             "III-55",
+            "IV-56",
             "IV-57",
             "IV-58",
             "IV-59",
@@ -813,6 +808,12 @@
             "IV-76",
             "IV-77",
             "IV-78",
+            "V-79",
+            "V-80",
+            "V-81",
+            "V-82",
+            "V-83",
+            "V-84",
             "V-85",
             "V-86",
             "V-87",
@@ -830,13 +831,12 @@
             "V-99",
             "V-100",
             "V-101",
-            "V-102",
-            "V-103"
+            "V-102"
           ],
           "totals": {
             "total": 103,
-            "free": 7,
-            "taken": 96
+            "free": 1,
+            "taken": 102
           }
         },
         {
@@ -859,13 +859,13 @@
             },
             "IX": {
               "total": 34,
-              "free": 13,
-              "taken": 21
+              "free": 6,
+              "taken": 28
             },
             "X": {
               "total": 32,
-              "free": 27,
-              "taken": 5
+              "free": 7,
+              "taken": 25
             },
             "XI": {
               "total": 34,
@@ -889,8 +889,8 @@
             },
             "XV": {
               "total": 20,
-              "free": 20,
-              "taken": 0
+              "free": 11,
+              "taken": 9
             },
             "XVI": {
               "total": 27,
@@ -904,74 +904,35 @@
             },
             "XVIII": {
               "total": 12,
-              "free": 7,
-              "taken": 5
+              "free": 4,
+              "taken": 8
             }
           },
           "freeSeats": [
             "IX-1",
             "IX-2",
             "IX-3",
-            "IX-4",
-            "IX-5",
-            "IX-6",
-            "IX-7",
-            "IX-8",
-            "IX-9",
-            "IX-10",
-            "IX-11",
-            "IX-12",
-            "IX-13",
+            "IX-30",
+            "IX-31",
+            "IX-32",
             "X-1",
             "X-2",
             "X-3",
             "X-4",
-            "X-5",
-            "X-6",
-            "X-7",
-            "X-8",
-            "X-9",
-            "X-10",
-            "X-11",
-            "X-12",
-            "X-13",
-            "X-14",
-            "X-20",
-            "X-21",
-            "X-22",
-            "X-23",
-            "X-24",
-            "X-25",
-            "X-26",
-            "X-27",
-            "X-28",
-            "X-29",
             "X-30",
             "X-31",
             "X-32",
             "XV-1",
             "XV-2",
             "XV-3",
-            "XV-4",
-            "XV-5",
-            "XV-6",
-            "XV-7",
-            "XV-8",
-            "XV-9",
-            "XV-10",
             "XV-11",
             "XV-12",
-            "XV-13",
-            "XV-14",
             "XV-15",
             "XV-16",
             "XV-17",
             "XV-18",
             "XV-19",
             "XV-20",
-            "XVIII-6",
-            "XVIII-7",
-            "XVIII-8",
             "XVIII-9",
             "XVIII-10",
             "XVIII-11",
@@ -1070,6 +1031,16 @@
             "VIII-30",
             "VIII-31",
             "VIII-32",
+            "IX-4",
+            "IX-5",
+            "IX-6",
+            "IX-7",
+            "IX-8",
+            "IX-9",
+            "IX-10",
+            "IX-11",
+            "IX-12",
+            "IX-13",
             "IX-14",
             "IX-15",
             "IX-16",
@@ -1086,16 +1057,33 @@
             "IX-27",
             "IX-28",
             "IX-29",
-            "IX-30",
-            "IX-31",
-            "IX-32",
             "IX-33",
             "IX-34",
+            "X-5",
+            "X-6",
+            "X-7",
+            "X-8",
+            "X-9",
+            "X-10",
+            "X-11",
+            "X-12",
+            "X-13",
+            "X-14",
             "X-15",
             "X-16",
             "X-17",
             "X-18",
             "X-19",
+            "X-20",
+            "X-21",
+            "X-22",
+            "X-23",
+            "X-24",
+            "X-25",
+            "X-26",
+            "X-27",
+            "X-28",
+            "X-29",
             "XI-1",
             "XI-2",
             "XI-3",
@@ -1228,6 +1216,15 @@
             "XIV-30",
             "XIV-31",
             "XIV-32",
+            "XV-4",
+            "XV-5",
+            "XV-6",
+            "XV-7",
+            "XV-8",
+            "XV-9",
+            "XV-10",
+            "XV-13",
+            "XV-14",
             "XVI-1",
             "XVI-2",
             "XVI-3",
@@ -1272,13 +1269,16 @@
             "XVIII-N1",
             "XVIII-N2",
             "XVIII-O2",
+            "XVIII-6",
+            "XVIII-7",
+            "XVIII-8",
             "XVIII-O3",
             "XVIII-N3"
           ],
           "totals": {
             "total": 363,
-            "free": 67,
-            "taken": 296
+            "free": 28,
+            "taken": 335
           }
         },
         {
@@ -1296,8 +1296,8 @@
             },
             "III": {
               "total": 32,
-              "free": 28,
-              "taken": 4
+              "free": 26,
+              "taken": 6
             },
             "IV": {
               "total": 32,
@@ -1324,8 +1324,6 @@
             "III-78",
             "III-79",
             "III-80",
-            "III-81",
-            "III-82",
             "III-83",
             "III-84",
             "III-85",
@@ -1398,6 +1396,8 @@
             "II-60",
             "III-72",
             "III-73",
+            "III-81",
+            "III-82",
             "III-87",
             "III-88",
             "IV-93",
@@ -1435,8 +1435,8 @@
           ],
           "totals": {
             "total": 124,
-            "free": 28,
-            "taken": 96
+            "free": 26,
+            "taken": 98
           }
         }
       ],
@@ -1446,14 +1446,14 @@
       "source": "biletyna",
       "totals": {
         "total": 590,
-        "free": 107,
-        "taken": 483
+        "free": 101,
+        "taken": 489
       },
       "rows": {
         "I": {
           "total": 15,
-          "free": 3,
-          "taken": 12
+          "free": 1,
+          "taken": 14
         },
         "II": {
           "total": 49,
@@ -1482,13 +1482,13 @@
         },
         "VII": {
           "total": 30,
-          "free": 9,
-          "taken": 21
+          "free": 7,
+          "taken": 23
         },
         "VIII": {
           "total": 32,
-          "free": 9,
-          "taken": 23
+          "free": 8,
+          "taken": 24
         },
         "IX": {
           "total": 34,
@@ -1547,26 +1547,21 @@
         },
         "I - ograniczona widoczność": {
           "total": 30,
-          "free": 30,
-          "taken": 0
+          "free": 29,
+          "taken": 1
         }
       },
       "freeSeats": [
-        "I-1",
-        "I-2",
         "I-15",
         "VII-20",
-        "VII-23",
-        "VII-24",
         "VII-25",
         "VII-26",
         "VII-27",
         "VII-28",
         "VII-29",
         "VII-30",
+        "VIII-13",
         "VIII-21",
-        "VIII-23",
-        "VIII-24",
         "VIII-25",
         "VIII-26",
         "VIII-27",
@@ -1644,7 +1639,6 @@
         "I - ograniczona widoczność-13",
         "I - ograniczona widoczność-14",
         "I - ograniczona widoczność-15",
-        "I - ograniczona widoczność-16",
         "I - ograniczona widoczność-17",
         "I - ograniczona widoczność-18",
         "I - ograniczona widoczność-19",
@@ -1661,6 +1655,8 @@
         "I - ograniczona widoczność-30"
       ],
       "takenSeats": [
+        "I-1",
+        "I-2",
         "I-3",
         "I-4",
         "I-5",
@@ -1812,6 +1808,8 @@
         "VII-19",
         "VII-21",
         "VII-22",
+        "VII-23",
+        "VII-24",
         "VIII-1",
         "VIII-2",
         "VIII-3",
@@ -1824,7 +1822,6 @@
         "VIII-10",
         "VIII-11",
         "VIII-12",
-        "VIII-13",
         "VIII-14",
         "VIII-15",
         "VIII-16",
@@ -1833,6 +1830,8 @@
         "VIII-19",
         "VIII-20",
         "VIII-22",
+        "VIII-23",
+        "VIII-24",
         "VIII-31",
         "VIII-32",
         "IX-1",
@@ -2050,6 +2049,7 @@
         "XVIII-12",
         "XVIII-13",
         "XVIII - os.niepełnosprawna-ON",
+        "I - ograniczona widoczność-16",
         "II-31",
         "II-32",
         "II-33",
@@ -2151,8 +2151,8 @@
           "rows": {
             "I": {
               "total": 15,
-              "free": 3,
-              "taken": 12
+              "free": 1,
+              "taken": 14
             },
             "II": {
               "total": 19,
@@ -2181,13 +2181,13 @@
             },
             "VII": {
               "total": 30,
-              "free": 9,
-              "taken": 21
+              "free": 7,
+              "taken": 23
             },
             "VIII": {
               "total": 32,
-              "free": 9,
-              "taken": 23
+              "free": 8,
+              "taken": 24
             },
             "IX": {
               "total": 34,
@@ -2246,21 +2246,16 @@
             }
           },
           "freeSeats": [
-            "I-1",
-            "I-2",
             "I-15",
             "VII-20",
-            "VII-23",
-            "VII-24",
             "VII-25",
             "VII-26",
             "VII-27",
             "VII-28",
             "VII-29",
             "VII-30",
+            "VIII-13",
             "VIII-21",
-            "VIII-23",
-            "VIII-24",
             "VIII-25",
             "VIII-26",
             "VIII-27",
@@ -2325,6 +2320,8 @@
             "XIV-32"
           ],
           "takenSeats": [
+            "I-1",
+            "I-2",
             "I-3",
             "I-4",
             "I-5",
@@ -2476,6 +2473,8 @@
             "VII-19",
             "VII-21",
             "VII-22",
+            "VII-23",
+            "VII-24",
             "VIII-1",
             "VIII-2",
             "VIII-3",
@@ -2488,7 +2487,6 @@
             "VIII-10",
             "VIII-11",
             "VIII-12",
-            "VIII-13",
             "VIII-14",
             "VIII-15",
             "VIII-16",
@@ -2497,6 +2495,8 @@
             "VIII-19",
             "VIII-20",
             "VIII-22",
+            "VIII-23",
+            "VIII-24",
             "VIII-31",
             "VIII-32",
             "IX-1",
@@ -2717,8 +2717,8 @@
           ],
           "totals": {
             "total": 466,
-            "free": 77,
-            "taken": 389
+            "free": 72,
+            "taken": 394
           }
         },
         {
@@ -2726,8 +2726,8 @@
           "rows": {
             "I - ograniczona widoczność": {
               "total": 30,
-              "free": 30,
-              "taken": 0
+              "free": 29,
+              "taken": 1
             },
             "II": {
               "total": 30,
@@ -2761,7 +2761,6 @@
             "I - ograniczona widoczność-13",
             "I - ograniczona widoczność-14",
             "I - ograniczona widoczność-15",
-            "I - ograniczona widoczność-16",
             "I - ograniczona widoczność-17",
             "I - ograniczona widoczność-18",
             "I - ograniczona widoczność-19",
@@ -2778,6 +2777,7 @@
             "I - ograniczona widoczność-30"
           ],
           "takenSeats": [
+            "I - ograniczona widoczność-16",
             "II-31",
             "II-32",
             "II-33",
@@ -2875,8 +2875,8 @@
           ],
           "totals": {
             "total": 124,
-            "free": 30,
-            "taken": 94
+            "free": 29,
+            "taken": 95
           }
         }
       ],
@@ -2886,8 +2886,8 @@
       "source": "ebilet",
       "totals": {
         "total": 671,
-        "free": 95,
-        "taken": 576
+        "free": 70,
+        "taken": 601
       },
       "rows": {
         "1": {
@@ -2937,8 +2937,8 @@
         },
         "XII": {
           "total": 32,
-          "free": 24,
-          "taken": 8
+          "free": 22,
+          "taken": 10
         },
         "XI": {
           "total": 34,
@@ -2952,8 +2952,8 @@
         },
         "IX": {
           "total": 34,
-          "free": 15,
-          "taken": 19
+          "free": 0,
+          "taken": 34
         },
         "VIII": {
           "total": 32,
@@ -2967,8 +2967,13 @@
         },
         "VI": {
           "total": 30,
-          "free": 3,
-          "taken": 27
+          "free": 1,
+          "taken": 29
+        },
+        "V": {
+          "total": 25,
+          "free": 0,
+          "taken": 25
         },
         "IV": {
           "total": 55,
@@ -2982,23 +2987,17 @@
         },
         "II": {
           "total": 49,
-          "free": 30,
-          "taken": 19
+          "free": 29,
+          "taken": 20
         },
         "I": {
           "total": 45,
           "free": 0,
           "taken": 45
-        },
-        "V": {
-          "total": 25,
-          "free": 5,
-          "taken": 20
         }
       },
       "freeSeats": [
         "II-17",
-        "II-20",
         "II-31",
         "II-32",
         "II-33",
@@ -3028,36 +3027,12 @@
         "II-59",
         "II-60",
         "III-37",
-        "IX-20",
-        "IX-21",
-        "IX-22",
-        "IX-23",
-        "IX-24",
-        "IX-25",
-        "IX-26",
-        "IX-27",
-        "IX-28",
-        "IX-29",
-        "IX-30",
-        "IX-31",
-        "IX-32",
-        "IX-33",
-        "IX-34",
-        "V-100",
-        "V-101",
-        "V-102",
-        "V-103",
-        "V-99",
-        "VI-1",
-        "VI-2",
         "VI-26",
         "VII-1",
         "VII-2",
         "VII-3",
         "XII-1",
         "XII-10",
-        "XII-11",
-        "XII-12",
         "XII-2",
         "XII-21",
         "XII-22",
@@ -3225,6 +3200,7 @@
         "II-16",
         "II-18",
         "II-19",
+        "II-20",
         "II-21",
         "II-22",
         "II-23",
@@ -3360,13 +3336,32 @@
         "IX-18",
         "IX-19",
         "IX-2",
+        "IX-20",
+        "IX-21",
+        "IX-22",
+        "IX-23",
+        "IX-24",
+        "IX-25",
+        "IX-26",
+        "IX-27",
+        "IX-28",
+        "IX-29",
         "IX-3",
+        "IX-30",
+        "IX-31",
+        "IX-32",
+        "IX-33",
+        "IX-34",
         "IX-4",
         "IX-5",
         "IX-6",
         "IX-7",
         "IX-8",
         "IX-9",
+        "V-100",
+        "V-101",
+        "V-102",
+        "V-103",
         "V-79",
         "V-80",
         "V-81",
@@ -3387,6 +3382,8 @@
         "V-96",
         "V-97",
         "V-98",
+        "V-99",
+        "VI-1",
         "VI-10",
         "VI-11",
         "VI-12",
@@ -3397,6 +3394,7 @@
         "VI-17",
         "VI-18",
         "VI-19",
+        "VI-2",
         "VI-20",
         "VI-21",
         "VI-22",
@@ -3539,6 +3537,8 @@
         "XI-7",
         "XI-8",
         "XI-9",
+        "XII-11",
+        "XII-12",
         "XII-13",
         "XII-14",
         "XII-15",
@@ -3707,8 +3707,8 @@
             },
             "XII": {
               "total": 32,
-              "free": 24,
-              "taken": 8
+              "free": 22,
+              "taken": 10
             },
             "XI": {
               "total": 34,
@@ -3722,8 +3722,8 @@
             },
             "IX": {
               "total": 34,
-              "free": 15,
-              "taken": 19
+              "free": 0,
+              "taken": 34
             },
             "VIII": {
               "total": 32,
@@ -3737,8 +3737,8 @@
             },
             "VI": {
               "total": 30,
-              "free": 3,
-              "taken": 27
+              "free": 1,
+              "taken": 29
             }
           },
           "freeSeats": [
@@ -3768,8 +3768,6 @@
             "XII-23",
             "XII-22",
             "XII-21",
-            "XII-12",
-            "XII-11",
             "XII-10",
             "XII-9",
             "XII-8",
@@ -3780,27 +3778,10 @@
             "XII-3",
             "XII-2",
             "XII-1",
-            "IX-34",
-            "IX-33",
-            "IX-32",
-            "IX-31",
-            "IX-30",
-            "IX-29",
-            "IX-28",
-            "IX-27",
-            "IX-26",
-            "IX-25",
-            "IX-24",
-            "IX-23",
-            "IX-22",
-            "IX-21",
-            "IX-20",
             "VII-3",
             "VII-2",
             "VII-1",
-            "VI-26",
-            "VI-2",
-            "VI-1"
+            "VI-26"
           ],
           "takenSeats": [
             "XVIII-14",
@@ -3934,6 +3915,8 @@
             "XII-15",
             "XII-14",
             "XII-13",
+            "XII-12",
+            "XII-11",
             "XI-34",
             "XI-33",
             "XI-32",
@@ -4000,6 +3983,21 @@
             "X-3",
             "X-2",
             "X-1",
+            "IX-34",
+            "IX-33",
+            "IX-32",
+            "IX-31",
+            "IX-30",
+            "IX-29",
+            "IX-28",
+            "IX-27",
+            "IX-26",
+            "IX-25",
+            "IX-24",
+            "IX-23",
+            "IX-22",
+            "IX-21",
+            "IX-20",
             "IX-19",
             "IX-18",
             "IX-17",
@@ -4104,12 +4102,156 @@
             "VI-6",
             "VI-5",
             "VI-4",
-            "VI-3"
+            "VI-3",
+            "VI-2",
+            "VI-1"
           ],
           "totals": {
             "total": 361,
-            "free": 59,
-            "taken": 302
+            "free": 40,
+            "taken": 321
+          }
+        },
+        {
+          "sectorName": "PARTER I",
+          "rows": {
+            "V": {
+              "total": 25,
+              "free": 0,
+              "taken": 25
+            },
+            "IV": {
+              "total": 23,
+              "free": 0,
+              "taken": 23
+            },
+            "III": {
+              "total": 21,
+              "free": 1,
+              "taken": 20
+            },
+            "II": {
+              "total": 19,
+              "free": 1,
+              "taken": 18
+            },
+            "I": {
+              "total": 15,
+              "free": 0,
+              "taken": 15
+            }
+          },
+          "freeSeats": [
+            "III-37",
+            "II-17"
+          ],
+          "takenSeats": [
+            "V-103",
+            "V-102",
+            "V-101",
+            "V-100",
+            "V-99",
+            "V-98",
+            "V-97",
+            "V-96",
+            "V-95",
+            "V-94",
+            "V-93",
+            "V-92",
+            "V-91",
+            "V-90",
+            "V-89",
+            "V-88",
+            "V-87",
+            "V-86",
+            "V-85",
+            "V-84",
+            "V-83",
+            "V-82",
+            "V-81",
+            "V-80",
+            "V-79",
+            "IV-78",
+            "IV-77",
+            "IV-76",
+            "IV-75",
+            "IV-74",
+            "IV-73",
+            "IV-72",
+            "IV-71",
+            "IV-70",
+            "IV-69",
+            "IV-68",
+            "IV-67",
+            "IV-66",
+            "IV-65",
+            "IV-64",
+            "IV-63",
+            "IV-62",
+            "IV-61",
+            "IV-60",
+            "IV-59",
+            "IV-58",
+            "IV-57",
+            "IV-56",
+            "III-55",
+            "III-54",
+            "III-53",
+            "III-52",
+            "III-51",
+            "III-50",
+            "III-49",
+            "III-48",
+            "III-47",
+            "III-46",
+            "III-45",
+            "III-44",
+            "III-43",
+            "III-42",
+            "III-41",
+            "III-40",
+            "III-39",
+            "III-38",
+            "III-36",
+            "III-35",
+            "II-34",
+            "II-33",
+            "II-32",
+            "II-31",
+            "II-30",
+            "II-29",
+            "II-28",
+            "II-27",
+            "II-26",
+            "II-25",
+            "II-24",
+            "II-23",
+            "II-22",
+            "II-21",
+            "II-20",
+            "II-19",
+            "II-18",
+            "II-16",
+            "I-15",
+            "I-14",
+            "I-13",
+            "I-12",
+            "I-11",
+            "I-10",
+            "I-9",
+            "I-8",
+            "I-7",
+            "I-6",
+            "I-5",
+            "I-4",
+            "I-3",
+            "I-2",
+            "I-1"
+          ],
+          "totals": {
+            "total": 103,
+            "free": 2,
+            "taken": 101
           }
         },
         {
@@ -4271,7 +4413,7 @@
           }
         },
         {
-          "sectorName": "Sektor 3",
+          "sectorName": "Sektor 4",
           "rows": {
             "1": {
               "total": 34,
@@ -4380,148 +4522,6 @@
             "free": 0,
             "taken": 83
           }
-        },
-        {
-          "sectorName": "PARTER I",
-          "rows": {
-            "V": {
-              "total": 25,
-              "free": 5,
-              "taken": 20
-            },
-            "IV": {
-              "total": 23,
-              "free": 0,
-              "taken": 23
-            },
-            "III": {
-              "total": 21,
-              "free": 1,
-              "taken": 20
-            },
-            "II": {
-              "total": 19,
-              "free": 2,
-              "taken": 17
-            },
-            "I": {
-              "total": 15,
-              "free": 0,
-              "taken": 15
-            }
-          },
-          "freeSeats": [
-            "V-103",
-            "V-102",
-            "V-101",
-            "V-100",
-            "V-99",
-            "III-37",
-            "II-20",
-            "II-17"
-          ],
-          "takenSeats": [
-            "V-98",
-            "V-97",
-            "V-96",
-            "V-95",
-            "V-94",
-            "V-93",
-            "V-92",
-            "V-91",
-            "V-90",
-            "V-89",
-            "V-88",
-            "V-87",
-            "V-86",
-            "V-85",
-            "V-84",
-            "V-83",
-            "V-82",
-            "V-81",
-            "V-80",
-            "V-79",
-            "IV-78",
-            "IV-77",
-            "IV-76",
-            "IV-75",
-            "IV-74",
-            "IV-73",
-            "IV-72",
-            "IV-71",
-            "IV-70",
-            "IV-69",
-            "IV-68",
-            "IV-67",
-            "IV-66",
-            "IV-65",
-            "IV-64",
-            "IV-63",
-            "IV-62",
-            "IV-61",
-            "IV-60",
-            "IV-59",
-            "IV-58",
-            "IV-57",
-            "IV-56",
-            "III-55",
-            "III-54",
-            "III-53",
-            "III-52",
-            "III-51",
-            "III-50",
-            "III-49",
-            "III-48",
-            "III-47",
-            "III-46",
-            "III-45",
-            "III-44",
-            "III-43",
-            "III-42",
-            "III-41",
-            "III-40",
-            "III-39",
-            "III-38",
-            "III-36",
-            "III-35",
-            "II-34",
-            "II-33",
-            "II-32",
-            "II-31",
-            "II-30",
-            "II-29",
-            "II-28",
-            "II-27",
-            "II-26",
-            "II-25",
-            "II-24",
-            "II-23",
-            "II-22",
-            "II-21",
-            "II-19",
-            "II-18",
-            "II-16",
-            "I-15",
-            "I-14",
-            "I-13",
-            "I-12",
-            "I-11",
-            "I-10",
-            "I-9",
-            "I-8",
-            "I-7",
-            "I-6",
-            "I-5",
-            "I-4",
-            "I-3",
-            "I-2",
-            "I-1"
-          ],
-          "totals": {
-            "total": 103,
-            "free": 8,
-            "taken": 95
-          }
         }
       ],
       "finalUrl": "https://sklep.ebilet.pl/144115188075856281"
@@ -4529,15 +4529,88 @@
   },
   "combinedTotals": {
     "total": 1851,
-    "free": 304,
-    "taken": 1547
+    "free": 226,
+    "taken": 1625
   },
-  "inferredSold": {},
+  "inferredSold": {
+    "Sektor 1:1-1": "biletyna",
+    "Sektor 1:1-2": "biletyna",
+    "Sektor 1:7-23": "biletyna",
+    "Sektor 1:7-24": "biletyna",
+    "Sektor 1:8-20": "biletyna",
+    "Sektor 1:8-23": "biletyna",
+    "Sektor 1:8-24": "biletyna",
+    "BALKON I:1- ograniczona widoczność-16": "biletyna",
+    "PARTER II:12-12": "ebilet",
+    "PARTER II:12-11": "ebilet",
+    "PARTER II:9-34": "ebilet",
+    "PARTER II:9-33": "ebilet",
+    "PARTER II:9-29": "ebilet",
+    "PARTER II:9-28": "ebilet",
+    "PARTER II:9-27": "ebilet",
+    "PARTER II:9-26": "ebilet",
+    "PARTER II:9-25": "ebilet",
+    "PARTER II:9-24": "ebilet",
+    "PARTER II:9-23": "ebilet",
+    "PARTER II:9-22": "ebilet",
+    "PARTER II:9-21": "ebilet",
+    "PARTER II:9-20": "ebilet",
+    "PARTER I:5-102": "ebilet",
+    "PARTER I:5-101": "ebilet",
+    "PARTER I:5-100": "ebilet",
+    "PARTER I:5-99": "ebilet",
+    "PARTER I:2-20": "ebilet",
+    "PARTER I:4-56": "kupbilecik",
+    "PARTER I:5-79": "kupbilecik",
+    "PARTER I:5-80": "kupbilecik",
+    "PARTER II:9-4": "kupbilecik",
+    "PARTER II:9-5": "kupbilecik",
+    "PARTER II:9-6": "kupbilecik",
+    "PARTER II:9-7": "kupbilecik",
+    "PARTER II:9-8": "kupbilecik",
+    "PARTER II:9-9": "kupbilecik",
+    "PARTER II:9-10": "kupbilecik",
+    "PARTER II:9-11": "kupbilecik",
+    "PARTER II:9-12": "kupbilecik",
+    "PARTER II:9-13": "kupbilecik",
+    "PARTER II:10-5": "kupbilecik",
+    "PARTER II:10-6": "kupbilecik",
+    "PARTER II:10-7": "kupbilecik",
+    "PARTER II:10-8": "kupbilecik",
+    "PARTER II:10-9": "kupbilecik",
+    "PARTER II:10-10": "kupbilecik",
+    "PARTER II:10-11": "kupbilecik",
+    "PARTER II:10-12": "kupbilecik",
+    "PARTER II:10-20": "kupbilecik",
+    "PARTER II:10-21": "kupbilecik",
+    "PARTER II:10-22": "kupbilecik",
+    "PARTER II:10-23": "kupbilecik",
+    "PARTER II:10-24": "kupbilecik",
+    "PARTER II:10-25": "kupbilecik",
+    "PARTER II:10-26": "kupbilecik",
+    "PARTER II:10-27": "kupbilecik",
+    "PARTER II:10-28": "kupbilecik",
+    "PARTER II:10-29": "kupbilecik",
+    "PARTER II:15-4": "kupbilecik",
+    "PARTER II:15-5": "kupbilecik",
+    "PARTER II:15-6": "kupbilecik",
+    "PARTER II:15-7": "kupbilecik",
+    "PARTER II:15-8": "kupbilecik",
+    "PARTER II:15-9": "kupbilecik",
+    "PARTER II:15-10": "kupbilecik",
+    "PARTER II:15-13": "kupbilecik",
+    "PARTER II:15-14": "kupbilecik",
+    "PARTER II:18-6": "kupbilecik",
+    "PARTER II:18-7": "kupbilecik",
+    "PARTER II:18-8": "kupbilecik",
+    "BALKON I:3-81": "kupbilecik",
+    "BALKON I:3-82": "kupbilecik"
+  },
   "diff": {
-    "biletynaSold": 0,
-    "ebiletSold": 0,
-    "kupbilecikSold": 0,
-    "lastUpdated": "2026-02-28T16:06:30.842Z"
+    "biletynaSold": 8,
+    "ebiletSold": 19,
+    "kupbilecikSold": 45,
+    "lastUpdated": "2026-03-04T11:30:52.077Z"
   },
-  "lastFetched": "2026-02-28T16:07:04.758Z"
+  "lastFetched": "2026-03-11T00:59:49.404Z"
 }

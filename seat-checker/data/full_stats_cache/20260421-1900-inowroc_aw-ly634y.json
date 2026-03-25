@@ -1957,21 +1957,6 @@
         "taken": 262
       },
       "rows": {
-        "III": {
-          "total": 31,
-          "free": 0,
-          "taken": 31
-        },
-        "II": {
-          "total": 35,
-          "free": 19,
-          "taken": 16
-        },
-        "I": {
-          "total": 39,
-          "free": 39,
-          "taken": 0
-        },
         "XVI": {
           "total": 20,
           "free": 0,
@@ -2036,6 +2021,21 @@
           "total": 20,
           "free": 14,
           "taken": 6
+        },
+        "III": {
+          "total": 31,
+          "free": 0,
+          "taken": 31
+        },
+        "II": {
+          "total": 35,
+          "free": 19,
+          "taken": 16
+        },
+        "I": {
+          "total": 39,
+          "free": 39,
+          "taken": 0
         }
       },
       "freeSeats": [
@@ -2414,83 +2414,6 @@
         "XVI-9"
       ],
       "sectors": [
-        {
-          "sectorName": "BALKON",
-          "rows": {
-            "III": {
-              "total": 11,
-              "free": 0,
-              "taken": 11
-            },
-            "II": {
-              "total": 16,
-              "free": 0,
-              "taken": 16
-            },
-            "I": {
-              "total": 21,
-              "free": 21,
-              "taken": 0
-            }
-          },
-          "freeSeats": [
-            "I-16",
-            "I-15",
-            "I-14",
-            "I-13",
-            "I-12",
-            "I-11",
-            "I-10",
-            "I-9",
-            "I-8",
-            "I-7",
-            "I-6",
-            "I-5",
-            "I-4",
-            "I-3",
-            "I-2",
-            "I-22",
-            "I-21",
-            "I-20",
-            "I-19",
-            "I-18",
-            "I-17"
-          ],
-          "takenSeats": [
-            "III-11",
-            "III-10",
-            "III-9",
-            "III-8",
-            "III-7",
-            "III-6",
-            "III-5",
-            "III-4",
-            "III-3",
-            "III-2",
-            "III-1",
-            "II-16",
-            "II-15",
-            "II-14",
-            "II-13",
-            "II-12",
-            "II-11",
-            "II-10",
-            "II-9",
-            "II-8",
-            "II-7",
-            "II-6",
-            "II-5",
-            "II-4",
-            "II-3",
-            "II-2",
-            "II-1"
-          ],
-          "totals": {
-            "total": 48,
-            "free": 21,
-            "taken": 27
-          }
-        },
         {
           "sectorName": "PARTER",
           "rows": {
@@ -2907,6 +2830,83 @@
             "free": 88,
             "taken": 235
           }
+        },
+        {
+          "sectorName": "BALKON",
+          "rows": {
+            "III": {
+              "total": 11,
+              "free": 0,
+              "taken": 11
+            },
+            "II": {
+              "total": 16,
+              "free": 0,
+              "taken": 16
+            },
+            "I": {
+              "total": 21,
+              "free": 21,
+              "taken": 0
+            }
+          },
+          "freeSeats": [
+            "I-16",
+            "I-15",
+            "I-14",
+            "I-13",
+            "I-12",
+            "I-11",
+            "I-10",
+            "I-9",
+            "I-8",
+            "I-7",
+            "I-6",
+            "I-5",
+            "I-4",
+            "I-3",
+            "I-2",
+            "I-22",
+            "I-21",
+            "I-20",
+            "I-19",
+            "I-18",
+            "I-17"
+          ],
+          "takenSeats": [
+            "III-11",
+            "III-10",
+            "III-9",
+            "III-8",
+            "III-7",
+            "III-6",
+            "III-5",
+            "III-4",
+            "III-3",
+            "III-2",
+            "III-1",
+            "II-16",
+            "II-15",
+            "II-14",
+            "II-13",
+            "II-12",
+            "II-11",
+            "II-10",
+            "II-9",
+            "II-8",
+            "II-7",
+            "II-6",
+            "II-5",
+            "II-4",
+            "II-3",
+            "II-2",
+            "II-1"
+          ],
+          "totals": {
+            "total": 48,
+            "free": 21,
+            "taken": 27
+          }
         }
       ],
       "finalUrl": "https://sklep.ebilet.pl/144115188075856264"
@@ -2922,7 +2922,7 @@
     "biletynaSold": 0,
     "ebiletSold": 0,
     "kupbilecikSold": 0,
-    "lastUpdated": "2026-02-28T16:04:23.988Z"
+    "lastUpdated": "2026-03-04T11:28:21.368Z"
   },
-  "lastFetched": "2026-02-28T16:04:53.898Z"
+  "lastFetched": "2026-03-04T12:42:08.274Z"
 }

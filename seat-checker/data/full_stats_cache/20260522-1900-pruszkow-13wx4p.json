@@ -7,8 +7,8 @@
       "source": "biletyna",
       "totals": {
         "total": 398,
-        "free": 116,
-        "taken": 282
+        "free": 114,
+        "taken": 284
       },
       "rows": {
         "I": {
@@ -53,8 +53,8 @@
         },
         "IX": {
           "total": 21,
-          "free": 8,
-          "taken": 13
+          "free": 6,
+          "taken": 15
         },
         "X": {
           "total": 30,
@@ -100,8 +100,6 @@
       "freeSeats": [
         "IX-21",
         "IX-20",
-        "IX-19",
-        "IX-18",
         "IX-7",
         "IX-6",
         "IX-2",
@@ -384,6 +382,8 @@
         "VIII-3",
         "VIII-2",
         "VIII-1",
+        "IX-19",
+        "IX-18",
         "IX-17",
         "IX-16",
         "IX-15",
@@ -545,8 +545,8 @@
             },
             "IX": {
               "total": 21,
-              "free": 8,
-              "taken": 13
+              "free": 6,
+              "taken": 15
             },
             "X": {
               "total": 30,
@@ -592,8 +592,6 @@
           "freeSeats": [
             "IX-21",
             "IX-20",
-            "IX-19",
-            "IX-18",
             "IX-7",
             "IX-6",
             "IX-2",
@@ -876,6 +874,8 @@
             "VIII-3",
             "VIII-2",
             "VIII-1",
+            "IX-19",
+            "IX-18",
             "IX-17",
             "IX-16",
             "IX-15",
@@ -993,8 +993,8 @@
           ],
           "totals": {
             "total": 398,
-            "free": 116,
-            "taken": 282
+            "free": 114,
+            "taken": 284
           }
         }
       ],
@@ -2498,15 +2498,15 @@
   },
   "combinedTotals": {
     "total": 1194,
-    "free": 254,
-    "taken": 940
+    "free": 252,
+    "taken": 942
   },
   "inferredSold": {},
   "diff": {
     "biletynaSold": 0,
     "ebiletSold": 0,
     "kupbilecikSold": 0,
-    "lastUpdated": "2026-02-27T22:42:59.269Z"
+    "lastUpdated": "2026-02-28T18:32:55.368Z"
   },
-  "lastFetched": "2026-02-28T18:32:55.371Z"
+  "lastFetched": "2026-03-04T11:37:51.447Z"
 }
