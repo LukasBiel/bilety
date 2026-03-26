@@ -155,30 +155,10 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
 
                     // 2. Standard Logic (Fallback)
                     console.log(`Biletyna: Starting standard navigation to ${event.sources.biletyna!.eventCardUrl}`);
-                    try {
-                        await page.goto(event.sources.biletyna!.eventCardUrl, {
-                            waitUntil: 'domcontentloaded',
-                            timeout: 30000,
-                        });
-                        const { writeFileSync } = await import('fs');
-                        const debugHtml = await page.content();
-                        const debugTitle = await page.title();
-                        const debugUrl = page.url();
-                        console.log(`[DEBUG Biletyna] OK — URL: ${debugUrl}, title: "${debugTitle}", HTML length: ${debugHtml.length}`);
-                        console.log(`[DEBUG Biletyna] HTML start: ${debugHtml.substring(0, 600).replace(/\s+/g, ' ')}`);
-                        writeFileSync('debug-biletyna.html', debugHtml);
-                    } catch (gotoErr) {
-                        console.error(`[DEBUG Biletyna] FAILED goto: ${gotoErr instanceof Error ? gotoErr.message : gotoErr}`);
-                        throw gotoErr;
-                    }
-
-                    // Wait for JS to render page content (Biletyna is a SPA)
-                    try {
-                        await page.waitForSelector('a[href*="/event/sector/"], .B-btn--primary, .ticket-buy, .place, [data-place_status]', { timeout: 10000 });
-                        console.log(`[DEBUG Biletyna] Content appeared after wait.`);
-                    } catch {
-                        console.log(`[DEBUG Biletyna] waitForSelector timed out — page may still be empty or bot-challenged.`);
-                    }
+                    await page.goto(event.sources.biletyna!.eventCardUrl, {
+                        waitUntil: 'domcontentloaded',
+                        timeout: 30000,
+                    });
 
                     // Dismiss cookie dialog first
                     try {
@@ -204,7 +184,6 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
                         });
                         return links;
                     });
-                    console.log(`[DEBUG Biletyna] Found ${sectorUrls.length} WYBIERZ sector links: ${JSON.stringify(sectorUrls)}`);
 
                     // Multi-sector: navigate to each sector URL and collect data
                     if (sectorUrls.length > 1) {
