@@ -165,6 +165,7 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
                         const debugTitle = await page.title();
                         const debugUrl = page.url();
                         console.log(`[DEBUG Biletyna] OK — URL: ${debugUrl}, title: "${debugTitle}", HTML length: ${debugHtml.length}`);
+                        console.log(`[DEBUG Biletyna] HTML start: ${debugHtml.substring(0, 600).replace(/\s+/g, ' ')}`);
                         writeFileSync('debug-biletyna.html', debugHtml);
                     } catch (gotoErr) {
                         console.error(`[DEBUG Biletyna] FAILED goto: ${gotoErr instanceof Error ? gotoErr.message : gotoErr}`);
@@ -195,6 +196,7 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
                         });
                         return links;
                     });
+                    console.log(`[DEBUG Biletyna] Found ${sectorUrls.length} WYBIERZ sector links: ${JSON.stringify(sectorUrls)}`);
 
                     // Multi-sector: navigate to each sector URL and collect data
                     if (sectorUrls.length > 1) {
