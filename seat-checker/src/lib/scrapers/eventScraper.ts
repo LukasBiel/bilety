@@ -154,21 +154,22 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
                     if (cacheHit) return;
 
                     // 2. Standard Logic (Fallback)
-                    console.log('Biletyna: Starting standard navigation...');
-                    await page.goto(event.sources.biletyna!.eventCardUrl, {
-                        waitUntil: 'domcontentloaded',
-                        timeout: 30000,
-                    });
-
-                    // DEBUG: dump page to file so we can inspect what Biletyna returns on server
+                    console.log(`Biletyna: Starting standard navigation to ${event.sources.biletyna!.eventCardUrl}`);
                     try {
+                        await page.goto(event.sources.biletyna!.eventCardUrl, {
+                            waitUntil: 'domcontentloaded',
+                            timeout: 30000,
+                        });
                         const { writeFileSync } = await import('fs');
                         const debugHtml = await page.content();
                         const debugTitle = await page.title();
                         const debugUrl = page.url();
-                        console.log(`[DEBUG Biletyna] URL: ${debugUrl}, title: "${debugTitle}", HTML length: ${debugHtml.length}`);
+                        console.log(`[DEBUG Biletyna] OK — URL: ${debugUrl}, title: "${debugTitle}", HTML length: ${debugHtml.length}`);
                         writeFileSync('debug-biletyna.html', debugHtml);
-                    } catch { }
+                    } catch (gotoErr) {
+                        console.error(`[DEBUG Biletyna] FAILED goto: ${gotoErr instanceof Error ? gotoErr.message : gotoErr}`);
+                        throw gotoErr;
+                    }
 
                     // Dismiss cookie dialog first
                     try {
