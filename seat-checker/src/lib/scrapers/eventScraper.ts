@@ -160,6 +160,16 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
                         timeout: 30000,
                     });
 
+                    // DEBUG: dump page to file so we can inspect what Biletyna returns on server
+                    try {
+                        const { writeFileSync } = await import('fs');
+                        const debugHtml = await page.content();
+                        const debugTitle = await page.title();
+                        const debugUrl = page.url();
+                        console.log(`[DEBUG Biletyna] URL: ${debugUrl}, title: "${debugTitle}", HTML length: ${debugHtml.length}`);
+                        writeFileSync('debug-biletyna.html', debugHtml);
+                    } catch { }
+
                     // Dismiss cookie dialog first
                     try {
                         await page.evaluate(() => {
