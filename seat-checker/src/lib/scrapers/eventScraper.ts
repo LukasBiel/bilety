@@ -172,6 +172,14 @@ export async function scrapeEventStats(event: JoinedEvent, id: string): Promise<
                         throw gotoErr;
                     }
 
+                    // Wait for JS to render page content (Biletyna is a SPA)
+                    try {
+                        await page.waitForSelector('a[href*="/event/sector/"], .B-btn--primary, .ticket-buy, .place, [data-place_status]', { timeout: 10000 });
+                        console.log(`[DEBUG Biletyna] Content appeared after wait.`);
+                    } catch {
+                        console.log(`[DEBUG Biletyna] waitForSelector timed out — page may still be empty or bot-challenged.`);
+                    }
+
                     // Dismiss cookie dialog first
                     try {
                         await page.evaluate(() => {
